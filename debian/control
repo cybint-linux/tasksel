@@ -58,6 +58,8 @@ Recommends:
 	iw,
 # sound
 	alsa-utils,
+# support for U2F devices 
+	libu2f-udev,
 
 Package: task-gnome-desktop
 Architecture: all
