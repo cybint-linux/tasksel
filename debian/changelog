@@ -122,7 +122,7 @@ tasksel (3.35) unstable; urgency=medium
       Closes: #827254,#827290
       Thanks to Laurent Bigonville for the help adding the alternative
     - drop firefox language packages not present in the archive.
-    - add light-locker to xfce dependencies 
+    - add light-locker to xfce dependencies
 
   [ Rene Engelhard ]
   * debian/control:
@@ -281,7 +281,7 @@ tasksel (3.23) unstable; urgency=medium
     names of desktop environments, so this does not hurt actual d-i
     localization, only the stats until those get un-fuzzied.
   * Removed mail-server, dns-server, database-server, file-server tasks,
-    which were not well enough defined to be useful and whose menu 
+    which were not well enough defined to be useful and whose menu
     space will be better used for blends or openstack tasks.
     Closes: #604100
   * Add gnome-orca to task-xfce-desktop; xfce4-accessibility-settings
@@ -417,7 +417,7 @@ tasksel (3.14+nmu1) unstable; urgency=low
 
   [ Joey Hess ]
   * Fix typo in changelog. Closes: #694894
-  
+
   [ Christian Perrier ]
   * Add Depends to network-manager-gnome on task-gnome-desktop
     Closes: #697868
@@ -459,7 +459,7 @@ tasksel (3.13) unstable; urgency=low
     Closes: #686021
   * Add gstreamer0.10-alsa to task-xfce-desktop, as a workaround for
     bug #651495, which was resulting in the mixer being broken.
-  
+
   [ Debconf translations ]
   * Brazilian Portuguese (Adriano Rafael Gomes).  Closes: #685181
 
@@ -694,7 +694,7 @@ tasksel (3.08) unstable; urgency=low
   * Update task-thai-gnome-desktop and task-thai-kde-desktop:
     - task-thai-gnome-desktop: Add gtk3-im-libthai
     - task-thai-kde-desktop: Add libthai-dev (which enhances libkhtml5)
-  
+
   [ Changwoo Ryu ]
   * Update task-korean-desktop and task-korean-gnome-desktop:
     - Add ibus-gtk3 to task-korean-gnome-desktop
@@ -722,7 +722,7 @@ tasksel (3.07) unstable; urgency=low
     - iceweasel-gnome-support no longer exists, its functionality has been
       merged into iceweasel, so drop it.
     - the gnome meta-package already depends on inkscape, so drop it.
-    - the gnome-core meta-package already depends on epiphany-browser, so drop it.    
+    - the gnome-core meta-package already depends on epiphany-browser, so drop it.
 
  -- Christian Perrier <bubulle@sesostris.kheops.frmug.org>  Sat, 05 Nov 2011 18:04:25 +0100
 
@@ -791,7 +791,7 @@ tasksel (3.02) experimental; urgency=low
   * Drop ttf-devanagari-fonts from the hindi task. It belongs to
     hindi-desktop
   * Fix spelling in French translation of tasks
-  
+
   [ Rene Engelhard ]
   * update tasks for openoffice.org-* -> libreoffice-*. Closes: #623769
   * add libreoffice-help-sk to slovak-desktop
@@ -874,7 +874,7 @@ tasksel (2.89) unstable; urgency=low
 tasksel (2.88) unstable; urgency=low
 
   * Make gnome-core key, as of 1:2.30+7 it includes the rest of the stuff
-    needed for key in gnome-desktop, except for gdm3. 
+    needed for key in gnome-desktop, except for gdm3.
   * lxde-desktop: Add gdm to key, to ensure it's available on CDs.
   * kde-desktop: Add qt4 perl packages now used by debconf.
 
@@ -982,7 +982,7 @@ tasksel (2.83) unstable; urgency=low
 
   [ Christian Perrier ]
   * Replace swfdec-mozilla by browser-plugin-gnash in the desktop
-    task as gnome has replaced its dependency on swfdec-gnome 
+    task as gnome has replaced its dependency on swfdec-gnome
     with mozilla-plugin-gnash. Closes: #595325
 
  -- Otavio Salvador <otavio@debian.org>  Sun, 05 Sep 2010 17:18:26 -0300
@@ -1102,7 +1102,7 @@ tasksel (2.80) unstable; urgency=low
   * Add mozvoikko to finnish-desktop. Closes: #503510
   * Fix "tasksel --help shows \t instead of tabs" by
     fixing tabs escaping in Spanish translation. Closes: #519458
-  * Revamp the description of standard and desktop tasks in 
+  * Revamp the description of standard and desktop tasks in
     an attempt to make them clearer. Closes: #452388
   * Add an SSH server task. Closes: #399840
   * Adapt tasks to packages that are really in unstable:
@@ -1325,7 +1325,7 @@ tasksel (2.75) unstable; urgency=low
   meta-gnome2 2.22.2~2 does. However, I've been waiting on that for exactly
   one month, and this version of tasksel does need to get into lenny for the
   release.
-  
+
   [ Joey Hess ]
   * Split out <lang>-{kde,gnome}-desktop tasks. Closes: #431173
   * Add uim-applet-{kde,gnome} to the japanese desktop tasks, as
@@ -1405,7 +1405,7 @@ tasksel (2.75) unstable; urgency=low
   * gnome-desktop: Make gnome the Key package for this task. Needs
     meta-gnome2 2.22.2~2, which syncs gnome to the past contents of the task.
     Thanks to Josselin Mouette for the cooperation. Closes: #484121
-  * swfdec-mozilla is included as a dependency of gnome; provisionally 
+  * swfdec-mozilla is included as a dependency of gnome; provisionally
     follow through by including it in the desktop task as well.
     Closes: #467324
 
@@ -1467,7 +1467,7 @@ tasksel (2.74) unstable; urgency=low
 
   [ Joey Hess ]
   * Fix enhances handling in the case where a task enhances another
-    task that is not available, or not installable. The enhancing task 
+    task that is not available, or not installable. The enhancing task
     should not be installed in this case. Closes:# 481255
   * Move all packages out of Key for the korean task. It should be installed
     even if some are unavailable.
@@ -2254,10 +2254,10 @@ tasksel (2.51) unstable; urgency=high
 
 tasksel (2.50) unstable; urgency=low
 
-  [ Translations of programs ] 
+  [ Translations of programs ]
     - updated Malagasy (Jaonary Rabarisoa)
 
-  [ Translations of tasks ] 
+  [ Translations of tasks ]
     - Updated French (Christian Perrier)
     - Updated Czech (Miroslav Kure)
     - Updated Romanian (Eddy Petrişor)
@@ -3095,7 +3095,7 @@ tasksel (2.21) unstable; urgency=low
 
   * Joey Hess
     - Chinese tasks reworked by Carlos Liu. Closes: #291092
-    	- Dropped xcin, pydict from chinese-s and stardic from chinese-t
+      - Dropped xcin, pydict from chinese-s and stardic from chinese-t
         - Dropped yiyantang, yh, kon2, chdrv, tfm-arphic-*, cce,
           gs-cjk-resource, cmap-adobe-gb1, cmap-adobe-cns1, psfontmgr
           from both tasks.
@@ -3146,7 +3146,7 @@ tasksel (2.17) unstable; urgency=low
 
   * Joey Hess
     - Don't clear screen in test mode.
-    - Fix behavior of tasks whose test script returns 2 in --new-install mode; 
+    - Fix behavior of tasks whose test script returns 2 in --new-install mode;
       do not install these tasks if the user de-selects them. Closes: #284895
 
  -- Joey Hess <joeyh@debian.org>  Thu,  9 Dec 2004 14:25:25 -0500
@@ -3202,7 +3202,7 @@ tasksel (2.13) unstable; urgency=medium
     - Correct typo in Norwegian Nynork translations
       Closes: #274409
     - Correct case in French debconf translation
-    
+
  -- Joey Hess <joeyh@debian.org>  Tue,  5 Oct 2004 20:46:42 -0400
 
 tasksel (2.12) unstable; urgency=low
@@ -3401,10 +3401,10 @@ tasksel (2.03) unstable; urgency=low
 
   * Otavio Salvador
     - Add brazilian-portuguese task.
-    - Fix how aptitude is called when using manual selection. 
+    - Fix how aptitude is called when using manual selection.
       Closes: #256604
     - Enquote the required, important and standard options because this
-      was missed.  
+      was missed.
   * Translations
     - André Luís Lopes
       - Updated Brazilian Portuguese translation of tasks.
@@ -3689,7 +3689,7 @@ tasksel (1.46) unstable; urgency=low
       - Added slovenian translations (both po/sl.po and tasks/po/sl.po)
     - Petter reinholdtsen
       - Updated Norwegian Bokmal translation (po/nb.po). Closes: #237840
- 
+
  -- Joey Hess <joeyh@debian.org>  Thu, 18 Mar 2004 16:49:06 -0500
 
 tasksel (1.45) unstable; urgency=HIGH
@@ -3940,7 +3940,7 @@ tasksel (1.37) unstable; urgency=low
 
 tasksel (1.36) unstable; urgency=low
 
-  * At the suggestion of Chris Lawrence, added foomatic-gui, 
+  * At the suggestion of Chris Lawrence, added foomatic-gui,
     foomatic-db-engine, and foomatic-db-hpijs to the print task.
   * Also add the (huge) foomatic-filters-ppds.
   * Remove obsolete cupsomatic-ppd package.
@@ -4028,7 +4028,7 @@ tasksel (1.28) unstable; urgency=low
   * Modified data.c to set the domain to match the task file it is reading,
     and use gettext on translatable strings. Closes: #157848
   * Included a slighlty outdated tasks/po/de.po.
-  * laptop: to support specific laptop HW, add tcp, mwavem, tpctl, 
+  * laptop: to support specific laptop HW, add tcp, mwavem, tpctl,
     thinkpad-base, i8kutils, and sjog. vaiostat is left commented until
     more than a source package is available. Closes: #201398
   * dialup: Remove anacron. Closes: #202882
@@ -4107,7 +4107,7 @@ tasksel (1.26) unstable; urgency=low
     - Added sudo to unix-server.
     - Added kernel-compile task for custom kernel building. Closes: #184428
     - Blessed the idea of putting Maintainer fields in individual task files.
-    - Removed nonexistant packages from tasks: netscape-zh-resource-477, 
+    - Removed nonexistant packages from tasks: netscape-zh-resource-477,
       dialdcost, hanterm, tktabble-dev
     - Put cxterm-ks in korean task to replace hanterm. I hope that's right.
     - Rename mozilla-locale-es to mozilla-locale-es-es.
@@ -4207,7 +4207,7 @@ tasksel (1.19) unstable; urgency=low
 
   * (NOT YET UPLOADED)
   * (re-)added french translations. Closes: #136758
-  * Renamed Norwegian translations; added nn.po 
+  * Renamed Norwegian translations; added nn.po
     Closes: #134075
 
  -- Randolph Chung <tausq@debian.org>  Mon,  4 Mar 2002 08:54:30 -0800
@@ -4247,7 +4247,7 @@ tasksel (1.15) unstable; urgency=low
     WM and xterm and so on), while the desktop task uses just
     x-window-system-core (because it already has a WM and so on from
     gnome and kde). Closes: #129217
-  * Removed pydb from python task, because Colin Watson said to. 
+  * Removed pydb from python task, because Colin Watson said to.
     Closes: #129520
   * it.po translation added, da.po added (Closes: #122668), ja.po updated,
     pt_BR updated (Closes: #122965)
@@ -4256,7 +4256,7 @@ tasksel (1.15) unstable; urgency=low
 
 tasksel (1.13) unstable; urgency=low
 
-  * python-dev addition. Closes: #72972 
+  * python-dev addition. Closes: #72972
   * Marcin Owsiany: updated pl.po
   * Jordi Mallach: added Catalan translation.
   * Galician translation from Jacobo Tarrio <jtarrio@debian.org>.
@@ -4267,15 +4267,15 @@ tasksel (1.12) unstable; urgency=low
 
   * The i18n release. :-)
   * Danish translation from Morten Brix Pedersen <morten@wtf.dk>.
-  * Norwegian (bokmål) translation from Petter Reinholdtsen 
+  * Norwegian (bokmål) translation from Petter Reinholdtsen
     <pere@hungry.com>. Closes: #120328
-  * Brazilian translation from Andre Luis Lopes 
+  * Brazilian translation from Andre Luis Lopes
     <andrelop@ig.com.br>.
   * i18n fixes from Tommi Vainikainen <thv+debian@iki.fi>
     Closes: #100343
-  * Traditional chinese translation from 
+  * Traditional chinese translation from
     Anthony Wong <ypwong@ypwong.org>. Closes: #75284
-  * French translation from Nicolas SABOURET 
+  * French translation from Nicolas SABOURET
     <Nicolas.Sabouret@limsi.fr>. Closes: #105988
   * Improve manpage. Closes: #108392
 
@@ -4295,7 +4295,7 @@ tasksel (1.10) unstable; urgency=low
 
 tasksel (1.9) unstable; urgency=low
 
-  * Add build-depends on gettext (Closes: #110918) 
+  * Add build-depends on gettext (Closes: #110918)
   * remove swig and saml from python-dev (Closes: #111683)
   * desktop task uses gimp1.2 rather than gimp (Closes: #111655)
 
@@ -4304,7 +4304,7 @@ tasksel (1.9) unstable; urgency=low
 tasksel (1.8) unstable; urgency=low
 
   * Add build-depends. Closes: #105475
-  * Code fixes. Closes: #103974 
+  * Code fixes. Closes: #103974
   * task changes. Closes: #107830
   * add su-to-root to menu entry. Closes: #71993
 
@@ -4455,7 +4455,7 @@ tasksel (1.1-1) unstable; urgency=low
     a Task: foo field, but don't worry about old packages that weren't
     installed", similar to dselect's Standard handling, I think.
     .
-    Patch thanks to Anthony Towns <aj@azure.humbug.org.au> 
+    Patch thanks to Anthony Towns <aj@azure.humbug.org.au>
 
  -- Randolph Chung <tausq@debian.org>  Mon, 23 Apr 2001 23:34:57 -0700
 
@@ -4486,7 +4486,7 @@ tasksel (1.0-7) frozen unstable; urgency=low
   * Adds -r, -i and -s switches for installing required, important and
     standard priority packages
   * Adds -n option for non-interactive runs (for use with -r or -i)
-  * Make data.c read priority settings; made packages_enumerate 
+  * Make data.c read priority settings; made packages_enumerate
     reentrant
 
  -- Randolph Chung <tausq@debian.org>  Sun,  6 Feb 2000 15:08:43 -0700
