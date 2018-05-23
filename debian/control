@@ -61,6 +61,8 @@ Recommends:
 	alsa-utils,
 # support for U2F devices 
 	libu2f-udev,
+# For use by users, to elevate privileges
+	sudo,
 
 Package: task-gnome-desktop
 Architecture: all
