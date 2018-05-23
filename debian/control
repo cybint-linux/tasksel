@@ -24,8 +24,8 @@ Package: tasksel-data
 Section: admin
 Priority: important
 Architecture: all
-Depends: ${misc:Depends}, tasksel
-Recommends: laptop-detect
+Depends: ${misc:Depends}
+Recommends: laptop-detect, tasksel
 Conflicts: tasksel (<< 2.67)
 Description: official tasks used for installation of Debian systems
  This package contains data about the standard tasks available on a Debian
