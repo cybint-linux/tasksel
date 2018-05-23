@@ -188,13 +188,13 @@ Description: LXQt
 Depends: ${misc:Depends},
          task-desktop,
          sddm,
-         sddm-theme-maui | sddm-theme,
+         sddm-theme-debian-elarun | sddm-theme-debian-elarun,
          lxqt,
 Recommends: xsane,
 # orca works with qt, adding accessibility
 	orca,
 # libreoffice widgets using just gtk
-	libreoffice-gtk2,
+	libreoffice-gtk3,
 # Package management.
 	synaptic,
 # firefox (ne iceweasel) is the most popular web browser at the moment,
