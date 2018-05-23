@@ -11,6 +11,8 @@ tasksel (3.44) unstable; urgency=medium
   * Remove extra directory tasks/po/INTER. (Closes: #799293)
   * Make aborting tasksel-debconf possible. (Closes: #868892)
     Many thanks to hmh@ for the patch.
+  * Weaken the dependency of tasksel-data on tasksel. (Closes: #413250)
+  * task-xfce-desktop: Replace vlc with parole (Closes: 849578)
 
   * Declare compliance with policy 4.1.4
     - Use an HTTPS Format URI in debian/copyright
@@ -22,7 +24,7 @@ tasksel (3.44) unstable; urgency=medium
   * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
     (Closes: #861932)
 
- -- Nicolas Braud-Santoni <nicolas@braud-santoni.eu>  Wed, 23 May 2018 04:44:57 +0200
+ -- Nicolas Braud-Santoni <nicolas@braud-santoni.eu>  Wed, 23 May 2018 23:26:34 +0200
 
 tasksel (3.43) unstable; urgency=medium
 
