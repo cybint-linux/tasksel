@@ -244,7 +244,7 @@ Recommends:
 # support for scanners
 	xsane,
 # media players
-	vlc,
+	parole,
 	quodlibet,
 # pdf viewer
 	evince-gtk | evince,
