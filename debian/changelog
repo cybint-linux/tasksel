@@ -7,6 +7,8 @@ tasksel (3.44) unstable; urgency=medium
   * task-desktop
     - Depend on libu2f-udev. (Closes: #891472)
     - Depend on sudo. (Closes: #773550)
+    - Lift dependency on firefox{-esr,}
+    - Prefer firefox to firefox-esr (Closes: #823605)
   * Update dependencies for task-lxqt-desktop. (Closes: #852471)
   * Remove extra directory tasks/po/INTER. (Closes: #799293)
   * Make aborting tasksel-debconf possible. (Closes: #868892)
@@ -24,7 +26,7 @@ tasksel (3.44) unstable; urgency=medium
   * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
     (Closes: #861932)
 
- -- Nicolas Braud-Santoni <nicolas@braud-santoni.eu>  Wed, 23 May 2018 23:26:34 +0200
+ -- Nicolas Braud-Santoni <nicolas@braud-santoni.eu>  Wed, 23 May 2018 23:56:54 +0200
 
 tasksel (3.43) unstable; urgency=medium
 

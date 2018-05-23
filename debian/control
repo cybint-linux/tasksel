@@ -65,7 +65,7 @@ Recommends:
 	sudo,
 # firefox is the most popular web browser at the moment,
 # although both gnome and kde offer their own too
-	firefox-esr | firefox,
+	firefox | firefox-esr,
 
 Package: task-gnome-desktop
 Architecture: all
