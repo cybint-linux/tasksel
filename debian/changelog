@@ -1,9 +1,27 @@
-tasksel (3.44) UNRELEASED; urgency=medium
+tasksel (3.44) unstable; urgency=medium
+
+  [ Nicolas Braud-Santoni ]
+  * Team upload.
+  * Add myself as uploader.
+
+  * task-desktop
+    - Depend on libu2f-udev. (Closes: #891472)
+    - Depend on sudo. (Closes: #773550)
+  * Update dependencies for task-lxqt-desktop. (Closes: #852471)
+  * Remove extra directory tasks/po/INTER. (Closes: #799293)
+  * Make aborting tasksel-debconf possible. (Closes: #868892)
+    Many thanks to hmh@ for the patch.
+
+  * Declare compliance with policy 4.1.4
+    - Use an HTTPS Format URI in debian/copyright
+    - Create debian/source/format, as 3.0 (native)
+  * debian/templates: Do not require a translation for tasksel/desktop's description
+  * Fix spelling in the tasksel(8) manpage
 
   [ Steve McIntyre ]
   * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
 
- -- Steve McIntyre <93sam@debian.org>  Tue, 22 May 2018 23:57:46 +0100
+ -- Nicolas Braud-Santoni <nicolas@braud-santoni.eu>  Wed, 23 May 2018 04:44:57 +0200
 
 tasksel (3.43) unstable; urgency=medium
 
