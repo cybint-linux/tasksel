@@ -63,6 +63,9 @@ Recommends:
 	libu2f-udev,
 # For use by users, to elevate privileges
 	sudo,
+# firefox is the most popular web browser at the moment,
+# although both gnome and kde offer their own too
+	firefox-esr | firefox,
 
 Package: task-gnome-desktop
 Architecture: all
@@ -80,9 +83,6 @@ Recommends:
 	gnome,
 # GNOME support in LibreOffice
 	libreoffice-gnome,
-# firefox is the most popular web browser at the moment,
-# although both gnome and kde offer their own too
-	firefox-esr | firefox,
 # libreoffice is the best word processor / office suite at the moment
 	libreoffice-writer,
 	libreoffice-calc,
@@ -125,9 +125,6 @@ Recommends:
 	apper,
 # temporarily moved from task-desktop due to #525077
 	gimp,
-# firefox is the most popular web browser at the moment,
-# although both gnome and kde offer their own too
-	firefox-esr | firefox,
 # libreoffice is the best word processor / office suite at the moment
 	libreoffice,
 # make help menu work
@@ -161,9 +158,6 @@ Recommends:
 	libreoffice-gtk2,
 # Package management.
 	synaptic,
-# firefox is the most popular web browser at the moment,
-# although both gnome and kde offer their own too
-	firefox-esr | firefox,
 # libreoffice is the best word processor / office suite at the moment
 	libreoffice,
 # make help menu work
@@ -199,9 +193,6 @@ Recommends: xsane,
 	libreoffice-gtk3,
 # Package management.
 	synaptic,
-# firefox (ne iceweasel) is the most popular web browser at the moment,
-# although both gnome and kde offer their own too
-	firefox-esr|firefox,
 # libreoffice is the best word processor / office suite at the moment
 	libreoffice,
 # make help menu work
@@ -254,9 +245,6 @@ Recommends:
 	network-manager-gnome,
 # package management
 	synaptic,
-# firefox is the most popular web browser at the moment,
-# although both gnome and kde offer their own too
-	firefox-esr | firefox,
 # libreoffice is the best word processor / office suite at the moment
 	libreoffice,
 # make help menu work
@@ -299,9 +287,6 @@ Recommends:
 	gimp,
 # Package management.
 	synaptic,
-# firefox) is the most popular web browser at the moment,
-# although both gnome and kde offer their own too
-	firefox-esr | firefox,
 # libreoffice is the best word processor / office suite at the moment
 	libreoffice,
 # make help menu work
