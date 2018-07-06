@@ -238,7 +238,7 @@ Recommends:
 	parole,
 	quodlibet,
 # pdf viewer
-	evince-gtk | evince,
+	atril,
 # icon theme
 	tango-icon-theme,
 # network management
