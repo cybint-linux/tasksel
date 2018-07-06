@@ -228,8 +228,6 @@ Recommends:
 	mousepad,
 # calendar application  
 	orage,
-# libreoffice widgets using just gtk
-	libreoffice-gtk2,
 # xfce is really improved by using dbus
 	default-dbus-session-bus | dbus-session-bus,
 # support for scanners
