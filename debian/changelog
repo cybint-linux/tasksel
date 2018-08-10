@@ -1,3 +1,10 @@
+tasksel (3.45) UNRELEASED; urgency=low
+
+  * Updated debconf translations:
+    - Brazilian Portuguese, by Adriano Rafael Gomes.
+
+ -- Adriano Rafael Gomes <adrianorg@debian.org>  Thu, 09 Aug 2018 22:19:39 -0300
+
 tasksel (3.44) unstable; urgency=medium
 
   [ Nicolas Braud-Santoni ]
