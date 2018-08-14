@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: tasksel/debian/po\n"
 "Report-Msgid-Bugs-To: tasksel@packages.debian.org\n"
 "POT-Creation-Date: 2018-05-23 01:37+0200\n"
-"PO-Revision-Date: 2018-07-17 20:44+0200\n"
+"PO-Revision-Date: 2018-08-14 15:46+0200\n"
 "Last-Translator: Holger Wansing <linux@wansing-online.de>\n"
 "Language-Team: Debian German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -59,8 +59,8 @@ msgstr ""
 #: ../templates:3001
 msgid "This can be preseeded to override the default desktop."
 msgstr ""
-"Sie können dies per Voreinstellung ändern und so eine andere "
-"Standard-Desktopumgebung auswählen."
+"Die Standardauswahl kann per Voreinstellung geändert werden, um eine andere "
+"Desktopumgebung auszuwählen."
 
 #. Type: title
 #. Description
