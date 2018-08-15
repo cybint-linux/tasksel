@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Pavel Piatruk <berserker@neolocation.com>, 2007.
+# Viktar Siarheichyk <vics@fsfe.org>, 2018.
 msgid ""
-msgstr ""
-"Project-Id-Version: tasksel_debian_po\n"
+msgstr "Project-Id-Version: tasksel_debian_po\n"
 "Report-Msgid-Bugs-To: tasksel@packages.debian.org\n"
 "POT-Creation-Date: 2018-05-23 01:37+0200\n"
-"PO-Revision-Date: 2007-10-17 12:26+0300\n"
-"Last-Translator: Pavel Piatruk <berserker@neolocation.com>\n"
-"Language-Team: Belarusian <i18n@mova.org>\n"
+"PO-Revision-Date: 2018-08-15 16:14+0300\n"
+"Last-Translator: Viktar Siarheichyk <vics@fsfe.org>\n"
+"Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,10 +32,7 @@ msgid ""
 "At the moment, only the core of the system is installed. To tune the system "
 "to your needs, you can choose to install one or more of the following "
 "predefined collections of software."
-msgstr ""
-"Зараз усталявана толькі ядро сістэмы. Каб удасканаліць сістэму адпаведна "
-"Вашым патрэбам, можна абраць адзін ці некалькі прадвызначаных набораў "
-"праграм. "
+msgstr "Зараз усталявана толькі ядро сістэмы. Каб удасканаліць сістэму адпаведна Вашым патрэбам, можна абраць адзін ці некалькі прадвызначаных набораў праграм."
 
 #. Type: multiselect
 #. Description
@@ -49,7 +46,7 @@ msgstr "Вы можаце ўсталяваць адзін ці некалькі 
 #. Description
 #: ../templates:3001
 msgid "This can be preseeded to override the default desktop."
-msgstr ""
+msgstr "Каб замяніць стандартны працоўны стол, можна выкарыстаць preseed."
 
 #. Type: title
 #. Description
