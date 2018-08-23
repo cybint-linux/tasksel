@@ -1,3 +1,14 @@
+tasksel (3.46) UNRELEASED; urgency=medium
+
+  * Team upload
+
+  [Yves-Alexis Perez]
+  * task-xfce-desktop:
+    - replace evince by atril (closes: #852646)
+    - drop duplicate libreoffice-gtk2 dependency
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 23 Aug 2018 19:51:48 +0200
+
 tasksel (3.45) unstable; urgency=medium
 
   * Team upload
@@ -5,11 +16,6 @@ tasksel (3.45) unstable; urgency=medium
   [ Updated translations ]
   * German (de.po) by Holger Wansing
   * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
-
-  [Yves-Alexis Perez]
-  * task-xfce-desktop:
-    - replace evince by atril (closes: #852646)
-    - drop duplicate libreoffice-gtk2 dependency
 
  -- Holger Wansing <hwansing@mailbox.org>  Tue, 14 Aug 2018 15:26:16 +0200
 
