@@ -2,10 +2,15 @@ tasksel (3.46) UNRELEASED; urgency=medium
 
   * Team upload
 
-  [Yves-Alexis Perez]
+  [ Yves-Alexis Perez ]
   * task-xfce-desktop:
     - replace evince by atril (closes: #852646)
     - drop duplicate libreoffice-gtk2 dependency
+
+  [ Boyuan Yang ]
+  * task-kde-desktop:
+    - Drop kdesudo dependency since this package has disappeared
+      (Closes: #902567)
 
   [ Updated debconf translations ]
   * Dutch (nl.po) by Frans Spiesschaert. (Closes: #906939)
