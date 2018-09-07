@@ -8,6 +8,7 @@ tasksel (3.46) UNRELEASED; urgency=medium
     - drop duplicate libreoffice-gtk2 dependency
 
   [ Updated debconf translations ]
+  * French (fr.po) by Alban Vidal. (Closes: #908178)
   * Dutch (nl.po) by Frans Spiesschaert. (Closes: #906939)
 
  -- Holger Wansing <hwansing@mailbox.org>  Thu, 23 Aug 2018 19:51:48 +0200
