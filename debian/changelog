@@ -13,6 +13,7 @@ tasksel (3.46) UNRELEASED; urgency=medium
       (Closes: #902567)
 
   [ Updated debconf translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk.
   * French (fr.po) by Alban Vidal. (Closes: #908178)
   * Dutch (nl.po) by Frans Spiesschaert. (Closes: #906939)
 
