@@ -20,6 +20,7 @@ tasksel (3.46) UNRELEASED; urgency=medium
   [ Holger Wansing ]
   * Remove needless fr2.po translation file, apparently added by error 6 years
     ago with commit 43e990ab.
+  * Remove dependencies on manpages-fr and manpages-fr-extra. (Closes: #905634)
 
  -- Holger Wansing <hwansing@mailbox.org>  Thu, 23 Aug 2018 19:51:48 +0200
 

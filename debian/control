@@ -1013,14 +1013,12 @@ Description: French environment
  This task installs packages and documentation in French
  to help French speaking people use Debian.
 Depends: ${misc:Depends}, 
-	manpages-fr
 Recommends:
 	doc-linux-fr-text,
 	doc-debian-fr,
 	ifrench-gut,
 	wfrench,
 	aspell-fr,
-	manpages-fr-extra,
 # Other packages to i18n common software
 	util-linux-locales
 
