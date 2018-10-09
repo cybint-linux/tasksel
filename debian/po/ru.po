@@ -11,14 +11,14 @@
 #         or http://www.debian.org/intl/l10n/po-debconf/README-trans#
 #    Developers do not need to manually edit POT or PO files.
 # Nikolai Prokoschenko <nikolai@prokoschenko.de>, 2004.
-# Yuri Kozlov <kozlov.y@gmail.com>, 2004, 2005, 2006.
+# Yuri Kozlov <kozlov.y@gmail.com>, 2004, 2005, 2006, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: tasksel-templates_ru\n"
 "Report-Msgid-Bugs-To: tasksel@packages.debian.org\n"
 "POT-Creation-Date: 2018-05-23 01:37+0200\n"
-"PO-Revision-Date: 2006-07-31 21:42+0300\n"
+"PO-Revision-Date: 2018-10-09 21:42+0300\n"
 "Last-Translator: Yuri Kozlov <kozlov.y@gmail.com>\n"
 "Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
 "Language: ru\n"
@@ -63,7 +63,7 @@ msgstr ""
 #. Description
 #: ../templates:3001
 msgid "This can be preseeded to override the default desktop."
-msgstr ""
+msgstr "Это можно автоматизировать для замены рабочего стола по умолчанию."
 
 #. Type: title
 #. Description
