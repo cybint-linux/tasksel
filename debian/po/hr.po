@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer HR\n"
 "Report-Msgid-Bugs-To: tasksel@packages.debian.org\n"
 "POT-Creation-Date: 2018-05-23 01:37+0200\n"
-"PO-Revision-Date: 2006-09-27 11:45+0200\n"
+"PO-Revision-Date: 2018-10-15 18:37+0200\n"
 "Last-Translator: Josip Rodin <joy+ditrans@linux.hr>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -28,7 +28,7 @@ msgid ""
 "to your needs, you can choose to install one or more of the following "
 "predefined collections of software."
 msgstr ""
-"Trenutno je instalirana samo jezgra sustava. Kako bi prilagodili instalaciju "
+"Trenutno je instaliran samo osnovni sustav. Kako bi prilagodili instalaciju "
 "svojim potrebama, mo¾ete birati meðu sljedeæim predodreðenim skupinama "
 "programa."
 
@@ -45,7 +45,7 @@ msgstr ""
 #. Description
 #: ../templates:3001
 msgid "This can be preseeded to override the default desktop."
-msgstr ""
+msgstr "Pretpostavljeno desktop okru¾enje mo¾ete promijeniti putem preeseed postavke."
 
 #. Type: title
 #. Description
