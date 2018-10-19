@@ -1,8 +1,13 @@
 tasksel (3.47) UNRELEASED; urgency=medium
 
+  [ Holger Wansing ]
   * Remove outdated doc-linux-de, doc-linux-hr and doc-linux-it.
     (Closes: #649575)
   * Add firefox-esr-l10n-ne-np to task-nepali-desktop. Closes: #908167
+
+  [ Rene Engelhard ]
+  * task-kde-desktop
+    - (Re-)Add libreoffice-kde5 (closes: #904457)
 
  -- Holger Wansing <hwansing@mailbox.org>  Fri, 19 Oct 2018 21:03:58 +0200
 
