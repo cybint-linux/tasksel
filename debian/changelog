@@ -4,6 +4,8 @@ tasksel (3.47) UNRELEASED; urgency=medium
   * Remove outdated doc-linux-de, doc-linux-hr and doc-linux-it.
     (Closes: #649575)
   * Add firefox-esr-l10n-ne-np to task-nepali-desktop. Closes: #908167
+  * Remove orphaned tamil-gtk2im from task-tamil-gnome-desktop, replace by
+    scim | ibus. Closes: #897982
 
   [ Rene Engelhard ]
   * task-kde-desktop
