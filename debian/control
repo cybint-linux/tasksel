@@ -1754,7 +1754,8 @@ Recommends:
 	fonts-lohit-deva,
 	libreoffice-l10n-ne,
 	mythes-ne,
-	hunspell-ne
+	hunspell-ne,
+	firefox-esr-l10n-ne-np
 
 Package: task-nepali-kde-desktop
 Architecture: all
