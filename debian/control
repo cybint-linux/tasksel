@@ -533,7 +533,6 @@ Depends: ${misc:Depends},
 	locales
 Recommends:
 	aspell-hr,
-	doc-linux-hr,
 	itools
 
 Package: task-bosnian-desktop
@@ -778,7 +777,6 @@ Depends: ${misc:Depends},
 	locales
 Recommends:
 	aspell-hr,
-	doc-linux-hr
 
 Package: task-croatian-desktop
 Architecture: all
@@ -1090,7 +1088,6 @@ Depends: ${misc:Depends},
 Recommends:
 	wngerman,
 	ingerman,
-	doc-linux-de,
 	aspell-de,
 	aspell-de-alt,
 	iswiss
@@ -1371,8 +1368,6 @@ Depends: ${misc:Depends},
 Recommends:
 	aspell-it,
 	debian-reference-it,
-	doc-linux-it,
-	doc-linux-it-text,
 	fortunes-it,
 	iitalian,
 	maint-guide-it,
@@ -2022,8 +2017,6 @@ Description: Serbian environment
  This task installs packages and documentation in Serbian
  to help Serbian speaking people use Debian.
 Depends: ${misc:Depends}, 
-Recommends:
-	doc-linux-hr
 
 Package: task-serbian-desktop
 Architecture: all

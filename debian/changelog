@@ -1,3 +1,10 @@
+tasksel (3.47) UNRELEASED; urgency=medium
+
+  * Remove outdated doc-linux-de, doc-linux-hr and doc-linux-it.
+    (Closes: #649575)
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 19 Oct 2018 21:03:58 +0200
+
 tasksel (3.46) unstable; urgency=medium
 
   * Team upload
