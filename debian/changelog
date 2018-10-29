@@ -1,4 +1,4 @@
-tasksel (3.47) UNRELEASED; urgency=medium
+tasksel (3.47) unstable; urgency=medium
 
   [ Holger Wansing ]
   * Remove outdated doc-linux-de, doc-linux-hr and doc-linux-it.
@@ -12,6 +12,7 @@ tasksel (3.47) UNRELEASED; urgency=medium
     - (Re-)Add libreoffice-kde5 (closes: #904457)
 
   [ Updated debconf translations ]
+  * Croatian (hr.po) by Josip Rodin
   * Russian (ru.po) by Yuri Kozlov
 
  -- Holger Wansing <hwansing@mailbox.org>  Fri, 19 Oct 2018 21:03:58 +0200
