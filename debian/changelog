@@ -1,3 +1,10 @@
+tasksel (3.48) UNRELEASED; urgency=medium
+
+  [ Luigi Toscano ]
+  * Use the name of the desktop (Plasma) for KDE tasks.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 11 Nov 2018 18:59:31 +0100
+
 tasksel (3.47) unstable; urgency=medium
 
   [ Holger Wansing ]
@@ -14,9 +21,6 @@ tasksel (3.47) unstable; urgency=medium
   [ Updated debconf translations ]
   * Croatian (hr.po) by Josip Rodin
   * Russian (ru.po) by Yuri Kozlov
-
-  [ Luigi Toscano ]
-  * Use the name of the desktop (Plasma) for KDE tasks.
 
  -- Holger Wansing <hwansing@mailbox.org>  Fri, 19 Oct 2018 21:03:58 +0200
 
