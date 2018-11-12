@@ -1,5 +1,7 @@
 tasksel (3.48) unstable; urgency=medium
 
+  * Team upload
+
   [ Luigi Toscano ]
   * Use the name of the desktop (Plasma) for KDE tasks.
 
