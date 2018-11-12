@@ -1,9 +1,9 @@
-tasksel (3.48) UNRELEASED; urgency=medium
+tasksel (3.48) unstable; urgency=medium
 
   [ Luigi Toscano ]
   * Use the name of the desktop (Plasma) for KDE tasks.
 
- -- Holger Wansing <hwansing@mailbox.org>  Sun, 11 Nov 2018 18:59:31 +0100
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 12 Nov 2018 11:37:31 +0100
 
 tasksel (3.47) unstable; urgency=medium
 
