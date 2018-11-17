@@ -602,7 +602,7 @@ Recommends:
 	firefox-esr-l10n-en-gb | firefox-l10n-en-gb,
 	libreoffice-help-en-gb,
 	libreoffice-l10n-en-gb,
-	myspell-en-gb
+	hunspell-en-gb
 
 Package: task-british-kde-desktop
 Architecture: all
