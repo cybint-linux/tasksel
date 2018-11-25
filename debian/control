@@ -1438,9 +1438,9 @@ Depends: ${misc:Depends},
 Recommends:
 # evolution has a problem for Japanese, for example it uses always UTF-8
 # subject instead of iso-2022-jp used Japanese de-facto. I recommend
-# icedove as default mailer for Japanese desktop users.
-	icedove,
-	icedove-l10n-ja
+# thunderbird as default mailer for Japanese desktop users.
+	thunderbird,
+	thunderbird-l10n-ja
 
 Package: task-japanese-kde-desktop
 Architecture: all

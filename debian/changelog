@@ -1,3 +1,11 @@
+tasksel (3.49) UNRELEASED; urgency=medium
+
+  [ Tetsutaro KAWADA ]
+  * task-japanese-gnome-desktop: rename icedove back to thunderbird.
+    (Closes: #914605)
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 25 Nov 2018 17:15:09 +0100
+
 tasksel (3.48) unstable; urgency=medium
 
   * Team upload
