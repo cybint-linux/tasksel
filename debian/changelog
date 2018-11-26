@@ -4,6 +4,11 @@ tasksel (3.49) UNRELEASED; urgency=medium
   * task-japanese-gnome-desktop: rename icedove back to thunderbird.
     (Closes: #914605)
 
+  [ Roland Clobus ]
+  * Replace myspell-en-gb by hunspell-en-gb in task-british-desktop. The
+    former is no longer in unstable, and has already been a transitional
+    package for the latter.
+
  -- Holger Wansing <hwansing@mailbox.org>  Sun, 25 Nov 2018 17:15:09 +0100
 
 tasksel (3.48) unstable; urgency=medium
