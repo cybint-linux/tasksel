@@ -51,8 +51,6 @@ Recommends:
 # mdns/zeroconf stuff
 	avahi-daemon,
 	libnss-mdns,
-# desktop machines might not be up 24/7
-	anacron,
 # Make sure that CDs etc can be ejected. May not be installed by d-i.
 	eject,
 # wireless networking tools (they're more and more used on desktops too)
@@ -306,7 +304,6 @@ Architecture: all
 Description: laptop
  This task package installs software useful for a laptop.
 Depends: ${misc:Depends}, 
-	anacron,
 Recommends:
 	avahi-autoipd,
 	bluetooth,
