@@ -14,6 +14,7 @@ tasksel (3.49) UNRELEASED; urgency=medium
 
   [ Holger Wansing ]
   * Remove empty Recommends: from control file, to fix lintian tag.
+  * task-lxde-desktop: Fix duplicate Recommends: on libreoffice-gtk2.
 
  -- Holger Wansing <hwansing@mailbox.org>  Sun, 25 Nov 2018 17:15:09 +0100
 

@@ -151,7 +151,7 @@ Recommends:
 	lxtask,
 	lxlauncher,
 	xsane,
-# libreoffice widgets using just gtk
+# libreoffice widgets using just gtk, and also accessibility needs the GTK frontend
 	libreoffice-gtk2,
 # Package management.
 	synaptic,
@@ -169,8 +169,6 @@ Recommends:
 	system-config-printer,
 # orca works with lxde, adding accessibility
 	orca,
-# libreoffice accessibility needs the GTK frontend
-	libreoffice-gtk2,
 
 Package: task-lxqt-desktop
 Architecture: all
