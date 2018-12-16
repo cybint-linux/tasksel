@@ -430,7 +430,6 @@ Description: Asturian environment
  This task installs packages and documentation in Asturian
  to help Asturian speaking people use Debian.
 Depends: ${misc:Depends}, 
-Recommends:
 
 Package: task-asturian-desktop
 Architecture: all
@@ -475,7 +474,6 @@ Description: Belarusian environment
  This task installs packages and documentation in Belarusian
  to help Belarusian speaking people use Debian.
 Depends: ${misc:Depends}, 
-Recommends:
 
 Package: task-belarusian-desktop
 Architecture: all
@@ -492,7 +490,6 @@ Architecture: all
 Description: Belarusian KDE Plasma desktop
  This task localises the KDE Plasma desktop in Belarusian.
 Depends: ${misc:Depends}, 
-Recommends:
 
 Package: task-bengali
 Architecture: all
@@ -520,7 +517,6 @@ Architecture: all
 Description: Bengali KDE Plasma desktop
  This task localises the KDE Plasma desktop in Bengali.
 Depends: ${misc:Depends}, 
-Recommends:
 
 Package: task-bosnian
 Architecture: all
@@ -905,7 +901,6 @@ Architecture: all
 Description: Dzongkha KDE Plasma desktop
  This task localises the KDE Plasma desktop in Dzongkha.
 Depends: ${misc:Depends}, 
-Recommends:
 
 Package: task-english
 Architecture: all
@@ -1594,7 +1589,6 @@ Architecture: all
 Description: Kurdish KDE Plasma desktop
  This task localises the KDE Plasma desktop in Kurdish.
 Depends: ${misc:Depends}, 
-Recommends:
 
 Package: task-latvian
 Architecture: all
@@ -1659,7 +1653,6 @@ Description: Macedonian environment
  This task installs packages and documentation in Macedonian
  to help Macedonian speaking people use Debian.
 Depends: ${misc:Depends}, 
-Recommends:
 
 Package: task-macedonian-desktop
 Architecture: all
@@ -1761,7 +1754,6 @@ Architecture: all
 Description: Nepali KDE Plasma desktop
  This task localises the KDE Plasma desktop in Nepali.
 Depends: ${misc:Depends}, 
-Recommends:
 
 Package: task-northern-sami
 Architecture: all
@@ -1778,7 +1770,6 @@ Architecture: all
 Description: Northern Sami desktop
  This task localises the desktop in Northern Sami.
 Depends: ${misc:Depends}, 
-Recommends:
 
 Package: task-norwegian
 Architecture: all
@@ -2447,7 +2438,6 @@ Architecture: all
 Description: Xhosa KDE Plasma desktop
  This task localises the KDE Plasma desktop in Xhosa.
 Depends: ${misc:Depends}, 
-Recommends:
 
 Package: task-cyrillic
 Architecture: all
@@ -2480,4 +2470,3 @@ Architecture: all
 Description: Cyrillic KDE Plasma desktop
  This task localises the KDE Plasma desktop in Cyrillic.
 Depends: ${misc:Depends}, 
-Recommends:

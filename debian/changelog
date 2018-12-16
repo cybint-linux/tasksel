@@ -12,6 +12,9 @@ tasksel (3.49) UNRELEASED; urgency=medium
   [ Michael Biebl ]
   * Drop anacron from task-desktop and task-laptop. Closes: #915370
 
+  [ Holger Wansing ]
+  * Remove empty Recommends: from control file, to fix lintian tag.
+
  -- Holger Wansing <hwansing@mailbox.org>  Sun, 25 Nov 2018 17:15:09 +0100
 
 tasksel (3.48) unstable; urgency=medium
