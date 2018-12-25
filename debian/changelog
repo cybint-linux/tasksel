@@ -16,6 +16,8 @@ tasksel (3.49) UNRELEASED; urgency=medium
   * Remove empty Recommends: from control file, to fix lintian tag.
   * task-lxde-desktop: Fix duplicate Recommends: on libreoffice-gtk2.
   * Remove trailing whitespaces from control file, to fix lintian tag.
+  * Remove aspell-de-alt (a dictionary for the old german orthography, which
+    is obsolete since 1996) from task-german. Closes: #917274
 
  -- Holger Wansing <hwansing@mailbox.org>  Sun, 25 Nov 2018 17:15:09 +0100
 
