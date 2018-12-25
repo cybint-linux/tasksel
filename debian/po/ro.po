@@ -62,7 +62,7 @@ msgstr ""
 #: ../templates:3001
 msgid "This can be preseeded to override the default desktop."
 msgstr ""
-"Acest pas se poate preconfigura pentru a schimba interfața grafică implicită"
+"Acest pas se poate preconfigura pentru a schimba interfața grafică implicită."
 
 #. Type: title
 #. Description
