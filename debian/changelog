@@ -1,4 +1,5 @@
-tasksel (3.49) UNRELEASED; urgency=medium
+tasksel (3.49) unstable; urgency=medium
+  * Team upload
 
   [ Tetsutaro KAWADA ]
   * task-japanese-gnome-desktop: rename icedove back to thunderbird.
@@ -19,7 +20,10 @@ tasksel (3.49) UNRELEASED; urgency=medium
   * Remove aspell-de-alt (a dictionary for the old german orthography, which
     is obsolete since 1996) from task-german. Closes: #917274
 
- -- Holger Wansing <hwansing@mailbox.org>  Sun, 25 Nov 2018 17:15:09 +0100
+  [ Updated debconf translations ]
+  * Romanian (ro.po) by Andrei POPESCU
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 25 Dec 2018 20:55:39 +0100
 
 tasksel (3.48) unstable; urgency=medium
 
