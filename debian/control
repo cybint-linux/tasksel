@@ -221,8 +221,6 @@ Recommends:
 	xfce4-terminal,
 # xfce text editor
 	mousepad,
-# calendar application
-	orage,
 # xfce is really improved by using dbus
 	default-dbus-session-bus | dbus-session-bus,
 # support for scanners
