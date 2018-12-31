@@ -1,8 +1,14 @@
 tasksel (3.50) UNRELEASED; urgency=medium
 
+  [ Yves-Alexis Perez ]
   * Team upload.
   * task-xfce-desktop: drop dependency on orage since it will be removed
     before Buster
+
+  [ Holger Wansing ]
+  * task-kannada-desktop: move 'firefox-esr-l10n-kn | firefox-l10n-kn' from
+    Depends to Recommends, as it is for all other language task, to fix
+    #913159 for Buster.
 
  -- Yves-Alexis Perez <corsac@debian.org>  Thu, 27 Dec 2018 15:41:00 +0100
 
