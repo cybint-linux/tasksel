@@ -1448,7 +1448,7 @@ Recommends:
 	fcitx,
 	fcitx-m17n,
 	fcitx-config-gtk
- 
+
 Package: task-kannada-kde-desktop
 Architecture: all
 Description: Kannada KDE Plasma desktop

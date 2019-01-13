@@ -9,6 +9,7 @@ tasksel (3.50) UNRELEASED; urgency=medium
   * task-kannada-desktop: move 'firefox-esr-l10n-kn | firefox-l10n-kn' from
     Depends to Recommends, as it is for all other language task, to fix
     #913159 for Buster.
+  * Remove trailing whitespace from control file, to fix lintian tag.
 
  -- Yves-Alexis Perez <corsac@debian.org>  Thu, 27 Dec 2018 15:41:00 +0100
 
