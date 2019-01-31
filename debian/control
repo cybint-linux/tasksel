@@ -733,9 +733,9 @@ Description: Traditional Chinese desktop
  This task localises the desktop in Traditional Chinese.
 Depends: ${misc:Depends},
 Recommends:
-	scim,
-	scim-chewing,
-	scim-gtk-immodule,
+	fcitx,
+	fcitx-chewing,
+	fcitx-table,
 	im-config,
 	fonts-arphic-ukai,
 	fonts-arphic-uming,

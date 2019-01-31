@@ -10,6 +10,8 @@ tasksel (3.50) UNRELEASED; urgency=medium
     Depends to Recommends, as it is for all other language task, to fix
     #913159 for Buster.
   * Remove trailing whitespace from control file, to fix lintian tag.
+  * task-chinese-t-desktop: switch input method from scim to fcitx for
+    Traditional Chinese. Closes: #680668
 
  -- Yves-Alexis Perez <corsac@debian.org>  Thu, 27 Dec 2018 15:41:00 +0100
 
