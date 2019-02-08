@@ -1,7 +1,7 @@
-tasksel (3.50) UNRELEASED; urgency=medium
+tasksel (3.50) unstable; urgency=medium
+  * Team upload.
 
   [ Yves-Alexis Perez ]
-  * Team upload.
   * task-xfce-desktop: drop dependency on orage since it will be removed
     before Buster
 
@@ -13,7 +13,7 @@ tasksel (3.50) UNRELEASED; urgency=medium
   * task-chinese-t-desktop: switch input method from scim to fcitx for
     Traditional Chinese. Closes: #680668
 
- -- Yves-Alexis Perez <corsac@debian.org>  Thu, 27 Dec 2018 15:41:00 +0100
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 08 Feb 2019 22:28:45 +0100
 
 tasksel (3.49) unstable; urgency=medium
   * Team upload
