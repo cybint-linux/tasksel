@@ -1742,7 +1742,7 @@ Recommends:
 	libreoffice-l10n-ne,
 	mythes-ne,
 	hunspell-ne,
-	firefox-esr-l10n-ne-np
+	firefox-esr-l10n-ne-np | firefox-l10n-ne-np
 
 Package: task-nepali-kde-desktop
 Architecture: all

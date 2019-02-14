@@ -1,3 +1,9 @@
+tasksel (3.51) UNRELEASED; urgency=medium
+
+  * Add firefox-l10n-ne-np to task-nepali-desktop. Closes: #922123
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 14 Feb 2019 19:05:27 +0100
+
 tasksel (3.50) unstable; urgency=medium
   * Team upload.
 
