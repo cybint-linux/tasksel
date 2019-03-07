@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tasksel@packages.debian.org\n"
 "POT-Creation-Date: 2018-05-23 01:37+0200\n"
 "PO-Revision-Date: 2006-10-03 20:07+0200\n"
-"Last-Translator: Bjørn Steensrud <bjornst@powertech.no>\n"
+"Last-Translator: Petter Reinholdtsen <pere@hungry.com>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -60,16 +60,10 @@ msgstr ""
 #. Description
 #: ../templates:3001
 msgid "This can be preseeded to override the default desktop."
-msgstr ""
+msgstr "Dette kan forhåndsutfulles for å overstyre forvalgt skrivebordsomgivelse."
 
 #. Type: title
 #. Description
 #: ../templates:4001
 msgid "Software selection"
 msgstr "Programvareutvalg"
-
-#~ msgid "${ORIGCHOICES}"
-#~ msgstr "${CHOICES}"
-
-#~ msgid "${CHOICES}, manual package selection"
-#~ msgstr "${CHOICES}, manuelt pakkevalg"
