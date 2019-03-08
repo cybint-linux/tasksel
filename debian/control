@@ -659,7 +659,7 @@ Recommends:
 	firefox-esr-l10n-ca | firefox-l10n-ca,
 	libreoffice-l10n-ca,
 	libreoffice-help-ca,
-	myspell-ca
+	hunspell-ca
 
 Package: task-catalan-kde-desktop
 Architecture: all

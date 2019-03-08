@@ -3,6 +3,8 @@ tasksel (3.51) UNRELEASED; urgency=medium
   * Add firefox-l10n-ne-np to task-nepali-desktop. Closes: #922123
   * Re-add anacron to task-desktop and task-laptop (removed in 3.49).
     Closes: #924037
+  * task-catalan-desktop: replace removed myspell-ca by hunspell-ca.
+    Closes: #910615
 
   [ Updated debconf translations ]
   * Danish: (da.po) by Joe Dalton.
