@@ -5,6 +5,7 @@ tasksel (3.51) UNRELEASED; urgency=medium
     Closes: #924037
   * task-catalan-desktop: replace removed myspell-ca by hunspell-ca.
     Closes: #910615
+  * task-greek-desktop: remove no longer existing fonts-mgopen. Closes: #823150
 
   [ Updated debconf translations ]
   * Danish: (da.po) by Joe Dalton.

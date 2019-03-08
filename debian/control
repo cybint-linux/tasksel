@@ -1126,7 +1126,6 @@ Description: Greek desktop
 Depends: ${misc:Depends},
 Recommends:
 	fonts-freefont-ttf,
-	fonts-mgopen,
 	libreoffice-l10n-el,
 	firefox-esr-l10n-el | firefox-l10n-el,
 	myspell-el-gr,
