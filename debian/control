@@ -680,7 +680,6 @@ Recommends:
 	opencc,
 	zhcon,
 	manpages-zh,
-	fortune-zh
 
 Package: task-chinese-s-desktop
 Architecture: all
@@ -988,7 +987,6 @@ Recommends:
 	libreoffice-l10n-fi,
 	libreoffice-voikko,
 	firefox-esr-l10n-fi | firefox-l10n-fi,
-	xul-ext-mozvoikko
 
 Package: task-finnish-kde-desktop
 Architecture: all
@@ -1005,8 +1003,6 @@ Description: French environment
  to help French speaking people use Debian.
 Depends: ${misc:Depends},
 Recommends:
-	doc-linux-fr-text,
-	doc-debian-fr,
 	ifrench-gut,
 	wfrench,
 	aspell-fr,
@@ -1162,9 +1158,7 @@ Package: task-gujarati-kde-desktop
 Architecture: all
 Description: Gujarati KDE Plasma desktop
  This task localises the KDE Plasma desktop in Gujarati.
-Depends: ${misc:Depends},
-Recommends:
-	kde-l10n-gu
+Depends: ${misc:Depends}
 
 Package: task-hebrew
 Architecture: all
@@ -1267,7 +1261,6 @@ Recommends:
 	firefox-esr-l10n-hu | firefox-l10n-hu,
 	libreoffice-l10n-hu,
 	libreoffice-help-hu,
-	libreoffice-thesausus-hu,
 	hyphen-hu,
 	hunspell-hu
 
@@ -1374,7 +1367,7 @@ Recommends:
 	libreoffice-l10n-it,
 	mythes-it,
 	firefox-esr-l10n-it | firefox-l10n-it,
-	myspell-it
+	hunspell-it
 
 Package: task-italian-kde-desktop
 Architecture: all
@@ -1457,7 +1450,6 @@ Description: Kannada KDE Plasma desktop
  This task localises the KDE Plasma desktop in Kannada.
 Depends: ${misc:Depends},
 Recommends:
-	kde-l10n-kn,
 	kde-config-fcitx
 
 Package: task-kazakh
@@ -1576,9 +1568,8 @@ Description: Kurdish desktop
  This task localises the desktop in Kurdish.
 Depends: ${misc:Depends},
 Recommends:
-	libreoffice-l10n-ku,
 	fonts-dejavu,
-	myspell-ku,
+	hunspell-kmr,
 	fonts-unikurdweb
 
 Package: task-kurdish-kde-desktop
@@ -1634,7 +1625,7 @@ Recommends:
 	libreoffice-l10n-lt,
 	hyphen-lt,
 	firefox-esr-l10n-lt | firefox-l10n-lt,
-	myspell-lt
+	hunspell-lt
 
 Package: task-lithuanian-kde-desktop
 Architecture: all
@@ -1665,9 +1656,7 @@ Package: task-macedonian-kde-desktop
 Architecture: all
 Description: Macedonian KDE Plasma desktop
  This task localises the KDE Plasma desktop in Macedonian.
-Depends: ${misc:Depends},
-Recommends:
-	kde-l10n-mk
+Depends: ${misc:Depends}
 
 Package: task-malayalam
 Architecture: all
@@ -1709,7 +1698,6 @@ Description: Malayalam KDE Plasma desktop
  This task localises the KDE Plasma desktop in Malayalam.
 Depends: ${misc:Depends},
 Recommends:
-	kde-l10n-ml,
 	fcitx-frontend-qt4,
 	fcitx-frontend-qt5,
 	kde-config-fcitx
@@ -1844,9 +1832,7 @@ Recommends:
 	konwert,
 	ipolish,
 	wpolish,
-	doc-linux-pl,
 	manpages-pl-dev,
-	doc-linux-pl-html,
 	aspell-pl,
 # Other packages to i18n common software
 	util-linux-locales
@@ -2039,9 +2025,7 @@ Package: task-sinhala-kde-desktop
 Architecture: all
 Description: Sinhala KDE Plasma desktop
  This task localises the KDE Plasma desktop in Sinhala.
-Depends: ${misc:Depends},
-Recommends:
-	kde-l10n-si
+Depends: ${misc:Depends}
 
 Package: task-slovak
 Architecture: all
@@ -2090,7 +2074,7 @@ Recommends:
 	firefox-esr-l10n-sl | firefox-l10n-sl,
 	libreoffice-l10n-sl,
 	libreoffice-help-sl,
-	myspell-sl
+	hunspell-sl
 
 Package: task-slovenian-kde-desktop
 Architecture: all
@@ -2123,7 +2107,6 @@ Recommends:
 	aspell-es,
 # Useful documentation for spanish-speakers
 	debian-reference-es,
-	doc-debian-es,
 # Other packages to i18n common software
 	util-linux-locales
 
@@ -2285,7 +2268,7 @@ Recommends:
 	xiterm+thai,
 	libreoffice-l10n-th,
 	firefox-esr-l10n-th | firefox-l10n-th,
-	myspell-th
+	hunspell-th
 
 Package: task-thai-gnome-desktop
 Architecture: all
@@ -2302,7 +2285,6 @@ Description: Thai KDE Plasma desktop
  This task localises the KDE Plasma desktop in Thai.
 Depends: ${misc:Depends},
 Recommends:
-	kde-l10n-th,
 	libthai-dev
 
 Package: task-turkish
@@ -2346,8 +2328,7 @@ Depends: ${misc:Depends},
 Recommends:
 	aspell-uk,
 	konwert,
-	iukrainian,
-	doc-debian-uk
+	iukrainian
 
 Package: task-ukrainian-desktop
 Architecture: all
@@ -2400,9 +2381,7 @@ Package: task-vietnamese-kde-desktop
 Architecture: all
 Description: Vietnamese KDE Plasma desktop
  This task localises the KDE Plasma desktop in Vietnamese.
-Depends: ${misc:Depends},
-Recommends:
-	kde-l10n-vi
+Depends: ${misc:Depends}
 
 Package: task-welsh
 Architecture: all
