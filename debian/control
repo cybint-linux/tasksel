@@ -538,7 +538,7 @@ Depends: ${misc:Depends},
 Recommends:
 	libreoffice-l10n-bs,
 	firefox-esr-l10n-bs | firefox-l10n-bs,
-	myspell-hr
+	hunspell-hr
 
 Package: task-bosnian-kde-desktop
 Architecture: all
@@ -574,7 +574,7 @@ Depends: ${misc:Depends},
 Recommends:
 	libreoffice-l10n-pt-br,
 	firefox-esr-l10n-pt-br | firefox-l10n-pt-br,
-	myspell-pt-br
+	hunspell-pt-br
 
 Package: task-brazilian-portuguese-kde-desktop
 Architecture: all
@@ -780,7 +780,7 @@ Depends: ${misc:Depends},
 Recommends:
 	hyphen-hr,
 	libreoffice-l10n-hr,
-	myspell-hr,
+	hunspell-hr,
 	firefox-esr-l10n-hr | firefox-l10n-hr,
 
 Package: task-croatian-kde-desktop
@@ -874,7 +874,7 @@ Recommends:
 	firefox-esr-l10n-nl | firefox-l10n-nl,
 	libreoffice-l10n-nl,
 	libreoffice-help-nl,
-	myspell-nl
+	hunspell-nl
 
 Package: task-dutch-kde-desktop
 Architecture: all
@@ -1847,7 +1847,7 @@ Recommends:
 	libreoffice-help-pl,
 	mythes-pl,
 	firefox-esr-l10n-pl | firefox-l10n-pl,
-	myspell-pl
+	hunspell-pl
 
 Package: task-polish-kde-desktop
 Architecture: all
@@ -1877,7 +1877,7 @@ Recommends:
 	libreoffice-l10n-pt,
 	libreoffice-help-pt,
 	firefox-esr-l10n-pt-pt | firefox-l10n-pt-pt,
-	myspell-pt-pt
+	hunspell-pt-pt
 
 Package: task-portuguese-kde-desktop
 Architecture: all
