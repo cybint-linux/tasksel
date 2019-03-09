@@ -626,7 +626,7 @@ Recommends:
 	libreoffice-l10n-bg,
 	firefox-esr-l10n-bg | firefox-l10n-bg,
 	fonts-dejavu,
-	myspell-bg
+	hunspell-bg
 
 Package: task-bulgarian-kde-desktop
 Architecture: all
