@@ -1,3 +1,11 @@
+tasksel (3.52) unstable; urgency=medium
+  * Team upload.
+
+  [ Updated translations ]
+  * Czech (cs.po) by Miroslav Kure
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 02 Apr 2019 22:48:50 +0200
+
 tasksel (3.51) unstable; urgency=medium
   * Team upload.
 
