@@ -2,8 +2,7 @@ Source: tasksel
 Section: tasks
 Priority: optional
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Uploaders: Christian Perrier <bubulle@debian.org>,
-           Nicolas Braud-Santoni <nicoo@debian.org>
+Uploaders: Nicolas Braud-Santoni <nicoo@debian.org>
 Standards-Version: 4.1.4
 Build-Depends: po-debconf, debhelper (>= 9), gettext, dpkg-dev (>= 1.9.0)
 Vcs-Browser: https://salsa.debian.org/installer-team/tasksel

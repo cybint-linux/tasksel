@@ -1,3 +1,10 @@
+tasksel (3.53) UNRELEASED; urgency=medium
+
+  * Remove Christian Perrier from Uploaders, with many thanks for all
+    his contributions over the years!
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:41:49 +0200
+
 tasksel (3.52) unstable; urgency=medium
   * Team upload.
 
