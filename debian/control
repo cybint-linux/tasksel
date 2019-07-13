@@ -448,7 +448,7 @@ Description: Basque environment
  to help Basque speaking people use Debian.
 Depends: ${misc:Depends},
 Recommends:
-	aspell-eu-es
+	aspell-eu
 
 Package: task-basque-desktop
 Architecture: all
@@ -1050,7 +1050,7 @@ Recommends:
 	libreoffice-l10n-gl,
 	libreoffice-help-gl,
 	firefox-esr-l10n-gl | firefox-l10n-gl,
-	hunspell-gl-es,
+	hunspell-gl
 
 Package: task-galician-kde-desktop
 Architecture: all
@@ -2158,7 +2158,7 @@ Recommends:
 	libreoffice-l10n-sv,
 	libreoffice-help-sv,
 	firefox-esr-l10n-sv-se | firefox-l10n-sv-se,
-	hunspell-sv-se
+	hunspell-sv
 
 Package: task-swedish-kde-desktop
 Architecture: all
