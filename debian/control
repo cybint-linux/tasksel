@@ -47,6 +47,8 @@ Recommends:
 	task-gnome-desktop | task-xfce-desktop | task-kde-desktop | task-lxde-desktop | task-cinnamon-desktop | task-mate-desktop | task-lxqt-desktop,
 # For use by third-party apps.
 	xdg-utils,
+# Font with wide unicode coverage, prevents “Unicode tofu”
+	fonts-symbola,
 # mdns/zeroconf stuff
 	avahi-daemon,
 	libnss-mdns,
