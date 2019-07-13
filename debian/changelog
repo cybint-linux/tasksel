@@ -1,3 +1,29 @@
+tasksel (3.54) unstable; urgency=low
+
+  [ Guillem Jover ]
+  * Improve print service task and description. (Closes: #696658)
+
+  [ Didier Raboud ]
+  * task-print-service: Drop dependencies on cups-* implied by cups itself
+    Closes: #824645
+
+  [ Nicolas Braud-Santoni ]
+  * task-xfce-desktop: Downgrade dependency on light-locker (Closes: #827562)
+    light-locker creates issues on some platforms (not available on kFreeBSD or
+    Hurd) and creates issues for users who prefer xscreensaver.
+
+  * Comply with policy v4.4.0
+    + Specify Rules-Requires-Root: no
+
+  [ Adam Borowski ]
+  * task-desktop: Recommend fonts-symbola. (Closes: #902321)
+    This font provides a wide coverage of Unicode (incl. symbols, emojis, ...)
+
+  [ Daniel Lewart ]
+  * Remove dependencies on transitional packages. (Closes: #929746)
+
+ -- Nicolas Braud-Santoni <nicoo@debian.org>  Sat, 13 Jul 2019 12:20:31 +0200
+
 tasksel (3.53) unstable; urgency=medium
 
   * Team upload.
