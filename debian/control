@@ -331,9 +331,7 @@ Description: print service
  printers plugged into this system to other network systems.
 Provides: task-print-server
 Depends: ${misc:Depends},
-	cups,
-	cups-client,
-	cups-bsd,
+	cups
 Recommends:
 	foomatic-db-engine,
 	printer-driver-all,
