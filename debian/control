@@ -133,7 +133,7 @@ Recommends:
 	hunspell-en-us,
 # make hyphenation work
 	hyphen-en-us,
-# gui for configuration of the print server
+# gui for configuration of the print service
 	system-config-printer,
 # media player
 	dragonplayer,
@@ -166,7 +166,7 @@ Recommends:
 	hunspell-en-us,
 # make hyphenation work
 	hyphen-en-us,
-# gui for configuration of the print server
+# gui for configuration of the print service
 	system-config-printer,
 # orca works with lxde, adding accessibility
 	orca,
@@ -199,7 +199,7 @@ Recommends: xsane,
 	hunspell-en-us,
 # make hyphenation work
 	hyphen-en-us,
-# gui for configuration of the print server
+# gui for configuration of the print service
 	system-config-printer,
 
 Package: task-xfce-desktop
@@ -247,7 +247,7 @@ Recommends:
 	hunspell-en-us,
 # make hyphenation work
 	hyphen-en-us,
-# gui for configuration of the print server
+# gui for configuration of the print service
 	system-config-printer,
 # orca works with xfce, adding accessibility
 	orca,
@@ -322,10 +322,13 @@ Recommends:
 	apache2-doc,
 	analog,
 
-Package: task-print-server
+Package: task-print-service
 Architecture: all
-Description: print server
- This task sets up your system to be a print server.
+Description: print service
+ This task sets up your system to provide print services. It is required to
+ use printers plugged into your system, network printers, or to make available
+ printers plugged into this system to other network systems.
+Provides: task-print-server
 Depends: ${misc:Depends},
 	cups,
 	cups-client,
