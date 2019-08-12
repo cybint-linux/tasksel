@@ -5,6 +5,12 @@ tasksel (3.55) UNRELEASED; urgency=medium
     set the working Korean IM by default without it.
   * Add fonts-noto and fonts-noto-cjk to task-korean-desktop.
 
+  [ Updated debconf translations ]
+  * Tajik (tg.po) by Victor Ibragimov
+
+  [ Updated translations ]
+  * Tajik (tg.po) by Victor Ibragimov
+
  -- Changwoo Ryu <cwryu@debian.org>  Sat, 20 Jul 2019 23:05:56 -0300
 
 tasksel (3.54) unstable; urgency=low

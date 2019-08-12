@@ -1,5 +1,5 @@
 # Translation of tg.po into Tajik
-# translation of tasksel_po_ru.po to Tajik
+# translation of tasksel_po_tg.po to Tajik
 # Copyright (C) 2000, 2004, 2005 Free Software Foundation, Inc.
 # Victor Ibragimov <victor.ibragimov@gmail.com>, 2019
 #
