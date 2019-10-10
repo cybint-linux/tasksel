@@ -698,8 +698,6 @@ Recommends:
 	fcitx-googlepinyin,
 	fcitx-table-wubi,
 # Fonts
-	fonts-arphic-ukai,
-	fonts-arphic-uming,
 	fonts-noto,
 	fonts-noto-cjk,
 # Software help and localization
@@ -711,6 +709,9 @@ Recommends:
 # poppler-data is needed to display
 # Chinese on poppler applications.
 	poppler-data
+Suggests:
+	fonts-arphic-ukai,
+	fonts-arphic-uming
 
 Package: task-chinese-s-kde-desktop
 Architecture: all
@@ -743,8 +744,6 @@ Recommends:
 	fcitx-chewing,
 	fcitx-table,
 	im-config,
-	fonts-arphic-ukai,
-	fonts-arphic-uming,
 # seems openjdk needs this to display Chinese.
 	fonts-noto,
 	fonts-noto-cjk,
@@ -754,6 +753,9 @@ Recommends:
 # poppler-data is needed to display
 # Chinese on poppler applications.
 	poppler-data
+Suggests:
+	fonts-arphic-ukai,
+	fonts-arphic-uming
 
 Package: task-chinese-t-kde-desktop
 Architecture: all
