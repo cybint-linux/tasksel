@@ -256,7 +256,7 @@ Recommends:
 # orca works with xfce, adding accessibility
 	orca,
 # libreoffice accessibility needs the GTK frontend
-	libreoffice-gtk2,
+	libreoffice-gtk3,
 
 Package: task-cinnamon-desktop
 Architecture: all
