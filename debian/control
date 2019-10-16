@@ -344,6 +344,7 @@ Recommends:
 
 Package: task-print-server
 Architecture: all
+Section: oldlibs
 Description: print service -- transitional package
  This task sets up your system to provide print services. It is required to
  use printers plugged into your system, network printers, or to make available
