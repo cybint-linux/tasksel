@@ -1,3 +1,18 @@
+tasksel (3.56) unstable; urgency=high (RC bugfix)
+
+  [ Nicolas Braud-Santoni ]
+  * task-spanish: Drop dependency on manpages-es (Closes: #942270)
+  * task-xfce-desktop: Use libreoffice-gtk3 instead of -gtk2 (Closes: #939533)
+  * Add task-print-server transitional package (Closes: #932818)
+  * Declare compliance with policy v4.4.1.
+    No change required.
+
+  [ Aron Xu ]
+  * Move fonts-arphic-* to Suggests for task-chinese-{s,t}-desktop.
+    Closes: #942103
+
+ -- Nicolas Braud-Santoni <nicoo@debian.org>  Wed, 16 Oct 2019 13:41:38 +0200
+
 tasksel (3.55) unstable; urgency=medium
 
   [ Changwoo Ryu ]
