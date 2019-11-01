@@ -1,3 +1,10 @@
+tasksel (3.57) UNRELEASED; urgency=medium
+
+  * tasksel should be priority=optional. Also, priority is to be declared only
+    once in control file. (Closes: #855151)
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 01 Nov 2019 22:46:31 +0100
+
 tasksel (3.56) unstable; urgency=high (RC bugfix)
 
   [ Nicolas Braud-Santoni ]

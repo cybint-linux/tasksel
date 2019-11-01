@@ -11,7 +11,6 @@ Rules-Requires-Root: no
 
 Package: tasksel
 Section: admin
-Priority: important
 Architecture: all
 Pre-Depends: debconf (>= 1.5.34) | cdebconf (>= 0.106)
 Depends: ${misc:Depends}, liblocale-gettext-perl, apt, tasksel-data, perl-base (>= 5.14.0-1)
@@ -22,7 +21,6 @@ Description: tool for selecting tasks for installation on Debian systems
 
 Package: tasksel-data
 Section: admin
-Priority: important
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: laptop-detect, tasksel
