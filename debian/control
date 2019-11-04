@@ -400,7 +400,6 @@ Description: Amharic KDE Plasma desktop
  This task localises the KDE Plasma desktop in Amharic.
 Depends: ${misc:Depends},
 Recommends:
-	fcitx-frontend-qt4,
 	fcitx-frontend-qt5,
 	kde-config-fcitx
 
@@ -730,7 +729,6 @@ Description: Simplified Chinese KDE Plasma desktop
 Depends: ${misc:Depends},
 Recommends:
 	kde-l10n-zhcn,
-	fcitx-frontend-qt4,
 	fcitx-frontend-qt5,
 	kde-config-fcitx
 
@@ -1570,7 +1568,6 @@ Description: Korean KDE Plasma desktop
  This task localises the KDE Plasma desktop in Korean.
 Depends: ${misc:Depends},
 Recommends:
-	ibus-qt4,
 	kde-l10n-ko
 
 Package: task-kurdish
@@ -1718,7 +1715,6 @@ Description: Malayalam KDE Plasma desktop
  This task localises the KDE Plasma desktop in Malayalam.
 Depends: ${misc:Depends},
 Recommends:
-	fcitx-frontend-qt4,
 	fcitx-frontend-qt5,
 	kde-config-fcitx
 
@@ -2265,7 +2261,6 @@ Description: Telugu KDE Plasma desktop environment
  This task localises the KDE Plasma desktop environment in Telugu.
 Depends: ${misc:Depends},
 Recommends:
-	fcitx-frontend-qt4,
 	fcitx-frontend-qt5,
 	kde-config-fcitx
 
