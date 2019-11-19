@@ -1,9 +1,10 @@
-tasksel (3.57) UNRELEASED; urgency=medium
+tasksel (3.57) unstable; urgency=medium
 
+  * Team upload.
   * tasksel should be priority=optional. Also, priority is to be declared only
     once in control file. (Closes: #855151)
 
- -- Holger Wansing <hwansing@mailbox.org>  Fri, 01 Nov 2019 22:46:31 +0100
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 19 Nov 2019 19:46:56 +0100
 
 tasksel (3.56) unstable; urgency=high (RC bugfix)
 
