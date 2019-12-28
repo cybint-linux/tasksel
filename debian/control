@@ -135,7 +135,7 @@ Recommends:
 # make hyphenation work
 	hyphen-en-us,
 # gui for configuration of the print service
-	system-config-printer,
+	print-manager,
 # media player
 	dragonplayer,
 

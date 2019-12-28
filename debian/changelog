@@ -9,6 +9,10 @@ tasksel (3.58) UNRELEASED; urgency=medium
   [ Boyuan Yang ]
   * Drop recommendation to qt4-related packages. Closes: 944115
 
+  [ Holger Wansing ]
+  * Use print-manager instead of system-config-printer for KDE installation task.
+    Closes: #945846
+
  -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 11 Dec 2019 10:54:15 +0100
 
 tasksel (3.57) unstable; urgency=medium
