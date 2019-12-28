@@ -7,7 +7,7 @@ tasksel (3.58) UNRELEASED; urgency=medium
     only if it's non empty.
 
   [ Boyuan Yang ]
-  * Drop recommendation to qt4-related packages. Closes: 944115
+  * Drop recommendation to qt4-related packages. Closes: #944115
 
   [ Holger Wansing ]
   * Use print-manager instead of system-config-printer for KDE installation task.
