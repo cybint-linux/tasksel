@@ -1,9 +1,13 @@
 tasksel (3.58) UNRELEASED; urgency=medium
 
+  [ Raphaël Hertzog ]
   * Makefile improvement: don't hardcode the "tasks" directory, use the
     $(DESCDIR) variable.
   * Fix default desktop selection by using the tasksel/desktop debconf setting
     only if it's non empty.
+
+  [ Boyuan Yang ]
+  * Drop recommendation to qt4-related packages. Closes: 944115
 
  -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 11 Dec 2019 10:54:15 +0100
 
