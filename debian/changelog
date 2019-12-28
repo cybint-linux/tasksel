@@ -12,6 +12,8 @@ tasksel (3.58) UNRELEASED; urgency=medium
   [ Holger Wansing ]
   * Use print-manager instead of system-config-printer for KDE installation task.
     Closes: #945846
+  * Remove xfce4-mixer from xfce-desktop task (has been removed from the
+    archive; successor is xfce4-pulseaudio-plugin). Closes: #946755
 
  -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 11 Dec 2019 10:54:15 +0100
 
