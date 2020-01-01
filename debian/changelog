@@ -1,4 +1,6 @@
-tasksel (3.58) UNRELEASED; urgency=medium
+tasksel (3.58) unstable; urgency=medium
+
+  * Team upload.
 
   [ Raphaël Hertzog ]
   * Makefile improvement: don't hardcode the "tasks" directory, use the
@@ -15,7 +17,7 @@ tasksel (3.58) UNRELEASED; urgency=medium
   * Remove xfce4-mixer from xfce-desktop task (has been removed from the
     archive; successor is xfce4-pulseaudio-plugin). Closes: #946755
 
- -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 11 Dec 2019 10:54:15 +0100
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 01 Jan 2020 20:13:37 +0100
 
 tasksel (3.57) unstable; urgency=medium
 
