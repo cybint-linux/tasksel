@@ -1,3 +1,10 @@
+tasksel (3.59) UNRELEASED; urgency=medium
+
+  * Remove task-print-service. CUPS is now the de-facto only print server and
+    is already pulled by the concerned desktop environments.  Closes: #950553
+
+ -- Didier Raboud <odyx@debian.org>  Sat, 15 Feb 2020 23:10:45 +0100
+
 tasksel (3.58) unstable; urgency=medium
 
   * Team upload.

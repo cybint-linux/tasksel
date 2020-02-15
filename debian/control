@@ -323,34 +323,6 @@ Recommends:
 	apache2-doc,
 	analog,
 
-Package: task-print-service
-Architecture: all
-Description: print service
- This task sets up your system to provide print services. It is required to
- use printers plugged into your system, network printers, or to make available
- printers plugged into this system to other network systems.
-Provides: task-print-server
-Depends: ${misc:Depends},
-	cups
-Recommends:
-	foomatic-db-engine,
-	printer-driver-all,
-	hplip,
-	hp-ppd,
-	openprinting-ppds,
-
-Package: task-print-server
-Architecture: all
-Section: oldlibs
-Description: print service -- transitional package
- This task sets up your system to provide print services. It is required to
- use printers plugged into your system, network printers, or to make available
- printers plugged into this system to other network systems.
- .
- This is a transitional package, task-print-server was renamed to
- task-print-service.
-Depends: ${misc:Depends}, task-print-service
-
 Package: task-ssh-server
 Architecture: all
 Description: SSH server
