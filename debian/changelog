@@ -1,7 +1,13 @@
 tasksel (3.59) UNRELEASED; urgency=medium
 
+  [ Didier Raboud ]
   * Remove task-print-service. CUPS is now the de-facto only print server and
     is already pulled by the concerned desktop environments.  Closes: #950553
+
+  [ Timo Jyrinki ]
+  * Add libenchant-2-voikko for Finnish.
+  * Add giella-sme and libenchant-2-voikko for Northern Sami, remove
+    hunspell-se (lower quality spell-checking).
 
  -- Didier Raboud <odyx@debian.org>  Sat, 15 Feb 2020 23:10:45 +0100
 

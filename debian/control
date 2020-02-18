@@ -960,7 +960,8 @@ Depends: ${misc:Depends},
 Recommends:
 	tmispell-voikko,
 	voikko-fi,
-	libenchant-voikko
+	libenchant-voikko,
+	libenchant-2-voikko
 
 Package: task-finnish-desktop
 Architecture: all
@@ -1734,8 +1735,8 @@ Description: Northern Sami environment
  to help Northern Sami speaking people use Debian.
 Depends: ${misc:Depends},
 Recommends:
-	hunspell,
-	hunspell-se
+	giella-sme,
+	libenchant-2-voikko
 
 Package: task-northern-sami-desktop
 Architecture: all
