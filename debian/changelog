@@ -1,4 +1,4 @@
-tasksel (3.59) UNRELEASED; urgency=medium
+tasksel (3.59) unstable; urgency=medium
 
   [ Didier Raboud ]
   * Remove task-print-service. CUPS is now the de-facto only print server and
@@ -9,7 +9,7 @@ tasksel (3.59) UNRELEASED; urgency=medium
   * Add giella-sme and libenchant-2-voikko for Northern Sami, remove
     hunspell-se (lower quality spell-checking).
 
- -- Didier Raboud <odyx@debian.org>  Sat, 15 Feb 2020 23:10:45 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Sun, 08 Mar 2020 21:35:08 +0100
 
 tasksel (3.58) unstable; urgency=medium
 
