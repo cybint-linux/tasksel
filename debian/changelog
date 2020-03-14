@@ -1,3 +1,10 @@
+tasksel (3.60) UNRELEASED; urgency=medium
+
+  * task-sinhala-desktop: replace obsolete metapackage fonts-noto-hinted by
+    fonts-noto-core and fonts-noto-ui-core. Closes: #949766
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 14 Mar 2020 20:07:11 +0100
+
 tasksel (3.59) unstable; urgency=medium
 
   [ Didier Raboud ]
