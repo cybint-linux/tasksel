@@ -1454,7 +1454,6 @@ Recommends:
 	im-config,
 	ibus-hangul,
 	fonts-nanum,
-	fonts-nanum-coding,
 	fonts-noto,
 	fonts-noto-cjk,
 	firefox-esr-l10n-ko | firefox-l10n-ko,

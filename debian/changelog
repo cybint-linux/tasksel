@@ -1,9 +1,14 @@
 tasksel (3.60) UNRELEASED; urgency=medium
 
+  [ Holger Wansing ]
   * task-sinhala-desktop: replace obsolete metapackage fonts-noto-hinted by
     fonts-noto-core and fonts-noto-ui-core. Closes: #949766
   * Drop no-longer existing kde-l10n-* packages from various tasks.
     Closes: #949694
+
+  [ Changwoo Ryu ]
+  * task-korean-desktop: Remove fonts-nanum-coding, which is now a
+    transitional package.
 
  -- Holger Wansing <hwansing@mailbox.org>  Sun, 05 Apr 2020 17:23:01 +0200
 
