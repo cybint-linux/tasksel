@@ -710,7 +710,7 @@ sub interactive {
 			$question="tasksel/first";
 		}
 		my @default = grep { $_->{_display} == 1 && ($_->{_install} == 1 || $_->{_installed} == 1) } @tasks;
-		my $tmpfile=`tempfile`;
+		my $tmpfile=`mktemp`;
 		chomp $tmpfile;
 		my $ret=system($debconf_helper, $tmpfile,
 			task_to_debconf_C(@list),
