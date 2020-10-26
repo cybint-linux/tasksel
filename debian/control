@@ -123,9 +123,12 @@ Recommends:
 # temporarily moved from task-desktop due to #525077
 	gimp,
 # libreoffice is the best word processor / office suite at the moment
-	libreoffice,
+	libreoffice-writer,
+	libreoffice-calc,
+	libreoffice-impress,
 # KDE support in LibreOffice
-	libreoffice-kde5,
+	libreoffice-plasma,
+	libreoffice-kf5,
 # make help menu work
 	libreoffice-help-en-us,
 # make thesaurus work
@@ -154,11 +157,13 @@ Recommends:
 	lxlauncher,
 	xsane,
 # libreoffice widgets using just gtk, and also accessibility needs the GTK frontend
-	libreoffice-gtk2,
+	libreoffice-gtk3,
 # Package management.
 	synaptic,
 # libreoffice is the best word processor / office suite at the moment
-	libreoffice,
+	libreoffice-writer,
+	libreoffice-calc,
+	libreoffice-impress,
 # make help menu work
 	libreoffice-help-en-us,
 # make thesaurus work
@@ -186,12 +191,15 @@ Depends: ${misc:Depends},
 Recommends: xsane,
 # orca works with qt, adding accessibility
 	orca,
-# libreoffice widgets using just gtk
+# libreoffice widgets using just gtk and qt
 	libreoffice-gtk3,
+	libreoffice-qt5,
 # Package management.
 	synaptic,
 # libreoffice is the best word processor / office suite at the moment
-	libreoffice,
+	libreoffice-writer,
+	libreoffice-calc,
+	libreoffice-impress,
 # make help menu work
 	libreoffice-help-en-us,
 # make thesaurus work
@@ -239,7 +247,9 @@ Recommends:
 # package management
 	synaptic,
 # libreoffice is the best word processor / office suite at the moment
-	libreoffice,
+	libreoffice-writer,
+	libreoffice-calc,
+	libreoffice-impress,
 # make help menu work
 	libreoffice-help-en-us,
 # make thesaurus work
@@ -281,7 +291,9 @@ Recommends:
 # Package management.
 	synaptic,
 # libreoffice is the best word processor / office suite at the moment
-	libreoffice,
+	libreoffice-writer,
+	libreoffice-calc,
+	libreoffice-impress,
 # make help menu work
 	libreoffice-help-en-us,
 # make thesaurus work
