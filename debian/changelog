@@ -10,6 +10,13 @@ tasksel (3.60) UNRELEASED; urgency=medium
   * task-korean-desktop: Remove fonts-nanum-coding, which is now a
     transitional package.
 
+  [ Bryan Quigley ]
+  * Switch LibreOffice from other desktop tasks to match the LibreOffice apps
+    Gnome brings in.
+  * Moved from transitional -kde integration.
+  * Switched lxde from removed -gtk2 integration to -gtk3.
+  * Added libreoffice-qt5 to LXQt.
+
   [ Updated debconf translations ]
   * Bulgarian (bg.po) by Damyan Ivanov.
   * Portuguese (pt.po) by Miguel Figueiredo.
