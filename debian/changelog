@@ -17,6 +17,10 @@ tasksel (3.60) UNRELEASED; urgency=medium
   * Switched lxde from removed -gtk2 integration to -gtk3.
   * Added libreoffice-qt5 to LXQt.
 
+  [ Sven Joachim ]
+  * Avoid tempfile deprecation warning. Since debianutils 4.10, tempfile is
+    deprecated in favor of mktemp. See #972076
+
   [ Updated debconf translations ]
   * Bulgarian (bg.po) by Damyan Ivanov.
   * Portuguese (pt.po) by Miguel Figueiredo.
