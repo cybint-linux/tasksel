@@ -25,6 +25,10 @@ tasksel (3.60) UNRELEASED; urgency=medium
   * Bulgarian (bg.po) by Damyan Ivanov.
   * Portuguese (pt.po) by Miguel Figueiredo.
 
+  [ Raphaël Hertzog ]
+  * Fix the name of the Acquire::Retries option passed to apt-get (the option
+    is not part of the "APT" group).
+
  -- Holger Wansing <hwansing@mailbox.org>  Sun, 05 Apr 2020 17:23:01 +0200
 
 tasksel (3.59) unstable; urgency=medium
