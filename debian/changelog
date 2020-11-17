@@ -21,7 +21,7 @@ tasksel (3.60) unstable; urgency=medium
 
   [ Sven Joachim ]
   * Avoid tempfile deprecation warning. Since debianutils 4.10, tempfile is
-    deprecated in favor of mktemp. See #972076
+    deprecated in favor of mktemp. (Closes: #972076)
 
   [ Updated debconf translations ]
   * Bulgarian (bg.po) by Damyan Ivanov.
