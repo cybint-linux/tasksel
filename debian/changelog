@@ -77,7 +77,7 @@ tasksel (3.57) unstable; urgency=medium
 
 tasksel (3.56) unstable; urgency=high (RC bugfix)
 
-  [ Nicolas Braud-Santoni ]
+  [ nicoo ]
   * task-spanish: Drop dependency on manpages-es (Closes: #942270)
   * task-xfce-desktop: Use libreoffice-gtk3 instead of -gtk2 (Closes: #939533)
   * Add task-print-server transitional package (Closes: #932818)
@@ -88,7 +88,7 @@ tasksel (3.56) unstable; urgency=high (RC bugfix)
   * Move fonts-arphic-* to Suggests for task-chinese-{s,t}-desktop.
     Closes: #942103
 
- -- Nicolas Braud-Santoni <nicoo@debian.org>  Wed, 16 Oct 2019 13:41:38 +0200
+ -- nicoo <nicoo@debian.org>  Wed, 16 Oct 2019 13:41:38 +0200
 
 tasksel (3.55) unstable; urgency=medium
 
@@ -100,7 +100,7 @@ tasksel (3.55) unstable; urgency=medium
   [ Victor Ibragimov ]
   * Updated Tajik translation (tg.po)
 
- -- Nicolas Braud-Santoni <nicoo@debian.org>  Wed, 28 Aug 2019 14:22:40 +0200
+ -- nicoo <nicoo@debian.org>  Wed, 28 Aug 2019 14:22:40 +0200
 
 tasksel (3.54) unstable; urgency=low
 
@@ -111,7 +111,7 @@ tasksel (3.54) unstable; urgency=low
   * task-print-service: Drop dependencies on cups-* implied by cups itself
     Closes: #824645
 
-  [ Nicolas Braud-Santoni ]
+  [ nicoo ]
   * task-xfce-desktop: Downgrade dependency on light-locker (Closes: #827562)
     light-locker creates issues on some platforms (not available on kFreeBSD or
     Hurd) and creates issues for users who prefer xscreensaver.
@@ -126,7 +126,7 @@ tasksel (3.54) unstable; urgency=low
   [ Daniel Lewart ]
   * Remove dependencies on transitional packages. (Closes: #929746)
 
- -- Nicolas Braud-Santoni <nicoo@debian.org>  Sat, 13 Jul 2019 12:20:31 +0200
+ -- nicoo <nicoo@debian.org>  Sat, 13 Jul 2019 12:20:31 +0200
 
 tasksel (3.53) unstable; urgency=medium
 
@@ -288,7 +288,7 @@ tasksel (3.45) unstable; urgency=medium
 
 tasksel (3.44) unstable; urgency=medium
 
-  [ Nicolas Braud-Santoni ]
+  [ nicoo ]
   * Team upload.
   * Add myself as uploader.
 
@@ -314,7 +314,7 @@ tasksel (3.44) unstable; urgency=medium
   * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
     (Closes: #861932)
 
- -- Nicolas Braud-Santoni <nicolas@braud-santoni.eu>  Wed, 23 May 2018 23:56:54 +0200
+ -- nicoo <nicoo@debian.org>  Wed, 23 May 2018 23:56:54 +0200
 
 tasksel (3.43) unstable; urgency=medium
 
