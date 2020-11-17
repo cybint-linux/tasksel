@@ -974,6 +974,7 @@ Recommends:
 	ifrench-gut,
 	wfrench,
 	aspell-fr,
+  manpages-fr,
 # Other packages to i18n common software
 	util-linux-locales
 
