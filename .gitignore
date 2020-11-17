@@ -2,4 +2,5 @@
 debian/files
 debian/tasksel*
 debian/task-*
+!debian/task-*.lintian-overrides
 debian-tasks.desc
