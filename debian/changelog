@@ -1,11 +1,19 @@
-tasksel (3.61) UNRELEASED; urgency=medium
+tasksel (3.61) unstable; urgency=low
 
   * task-french: Re-add dependency on manpages-fr (Closes: #973873)
+  * Switch to debhelper 13.
+    Replace the obsolete d/compat with a Build-Depends on debhelper-compat.
 
   * Update maintainer name
   * Amend changelog for v3.60, mention #972076 in the standard way.
+  * d/control: Declare compliance with policy v4.5.1.
+    No change required.
+  * lintian
+    + Override description-too-short
+    + Override debconf-related warnings about tasksel
+    + Do not warn on lintian ↔ lintian-data circular dep
 
- -- nicoo <nicoo@debian.org>  Tue, 17 Nov 2020 23:27:33 +0100
+ -- nicoo <nicoo@debian.org>  Wed, 18 Nov 2020 02:40:32 +0100
 
 tasksel (3.60) unstable; urgency=medium
 
