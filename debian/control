@@ -47,7 +47,7 @@ Recommends:
 # The order here is significant when installing this task manually;
 # when tasksel installs this task it instead selects one of these based
 # on the tasksel/desktop debconf setting.
-	task-gnome-desktop | task-xfce-desktop | task-kde-desktop | task-lxde-desktop | task-cinnamon-desktop | task-mate-desktop | task-lxqt-desktop,
+	task-gnome-desktop | task-xfce-desktop | task-kde-desktop | task-lxde-desktop | task-gnome-flashback-desktop | task-cinnamon-desktop | task-mate-desktop | task-lxqt-desktop,
 # For use by third-party apps.
 	xdg-utils,
 # Font with wide unicode coverage, prevents “Unicode tofu”
@@ -101,6 +101,61 @@ Recommends:
 	hyphen-en-us,
 # we need a working network setup at least
 	network-manager-gnome,
+
+Package: task-gnome-flashback-desktop
+Architecture: all
+Description: GNOME Flashback
+ This task package is used to install the Debian desktop, featuring
+ the GNOME Flashback desktop environment, and with other packages that
+ Debian users expect to have available on the desktop.
+Depends: ${misc:Depends},
+	task-desktop,
+# the basic components required for the session
+	gnome-session-flashback,
+# the display manager
+	gdm3,
+# the control center
+	gnome-control-center,
+# some core GNOME applications
+	eog,
+	evince,
+	file-roller,
+	gedit,
+	gnome-calculator,
+	gnome-screenshot,
+	gnome-terminal,
+	totem,
+# network manager applet
+	network-manager-gnome,
+Recommends:
+# GNOME support in LibreOffice
+	libreoffice-gnome,
+# libreoffice is the best word processor / office suite at the moment
+	libreoffice-writer,
+	libreoffice-calc,
+	libreoffice-impress,
+# make help menu work
+	libreoffice-help-en-us,
+# make thesaurus work
+	mythes-en-us,
+# make spellchecker work
+	hunspell-en-us,
+# make hyphenation work
+	hyphen-en-us,
+# accessibility support
+	gnome-orca,
+# web browser
+	firefox | firefox-esr,
+# mail client
+	evolution,
+# package management
+	gnome-software,
+# some non-core GNOME applications
+	alacarte,
+	gnome-disk-utility,
+	gnome-documents,
+	gnome-tweaks,
+	yelp,
 
 Package: task-kde-desktop
 Architecture: all

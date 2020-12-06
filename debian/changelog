@@ -1,3 +1,10 @@
+tasksel (3.62) UNRELEASED; urgency=low
+
+  [ Dmitry Shachnev ]
+  * Add a task for the Gnome Flashback desktop environment. Closes: #805305
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 29 Nov 2020 21:45:38 +0100
+
 tasksel (3.61) unstable; urgency=low
 
   * task-french: Re-add dependency on manpages-fr (Closes: #973873)
