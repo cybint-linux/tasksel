@@ -2,7 +2,7 @@ tasksel (3.64) UNRELEASED; urgency=medium
 
   [ Holger Wansing ]
   * Remove manpages-it from task-italian task (package has been removed from
-    unstable); see #982035.
+    unstable). Closes: #982035.
 
   [ Updated debconf translations ]
   * Spanish (es.po) by Javier Fernandez-Sanguino. Closes: #981478
