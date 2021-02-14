@@ -1,4 +1,6 @@
-tasksel (3.64) UNRELEASED; urgency=medium
+tasksel (3.64) unstable; urgency=medium
+
+  * Team upload.
 
   [ Holger Wansing ]
   * Remove manpages-it from task-italian task (package has been removed from
@@ -7,7 +9,7 @@ tasksel (3.64) UNRELEASED; urgency=medium
   [ Updated debconf translations ]
   * Spanish (es.po) by Javier Fernandez-Sanguino. Closes: #981478
 
- -- Holger Wansing <hwansing@mailbox.org>  Fri, 05 Feb 2021 14:58:53 +0100
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 14 Feb 2021 18:03:39 +0100
 
 tasksel (3.63) unstable; urgency=medium
 
