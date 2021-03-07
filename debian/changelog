@@ -6,6 +6,9 @@ tasksel (3.65) UNRELEASED; urgency=medium
   [ Holger Wansing ]
   * Re-add manpages-it to task-italian task (package is again available in
     unstable/testing). Closes: #982043.
+  * Add manpages translations from newly introduced manpages-l10n package
+    (manpages-pt-br, manpages-nl, manpages-mk, manpages-ro, manpages-es)
+    to the respective language tasks (see #982043).
 
  -- Holger Wansing <hwansing@mailbox.org>  Mon, 22 Feb 2021 10:31:05 +0100
 

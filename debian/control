@@ -605,7 +605,7 @@ Description: Brazilian Portuguese environment
  documentation that make it easier for Brazilian Portuguese speakers
  to use Debian.
 Depends: ${misc:Depends},
-	manpages-pt
+	manpages-pt-br
 Recommends:
 # Dictionaries
 	ibrazilian,
@@ -894,6 +894,7 @@ Description: Dutch environment
  documentation that makes it easier for Dutch speakers
  to use Debian.
 Depends: ${misc:Depends},
+	manpages-nl,
 Recommends:
 	idutch,
 	wdutch,
@@ -1033,7 +1034,7 @@ Recommends:
 	ifrench-gut,
 	wfrench,
 	aspell-fr,
-  manpages-fr,
+        manpages-fr,
 # Other packages to i18n common software
 	util-linux-locales
 
@@ -1636,6 +1637,7 @@ Description: Macedonian environment
  This task installs packages and documentation in Macedonian
  to help Macedonian speaking people use Debian.
 Depends: ${misc:Depends},
+	manpages-mk,
 
 Package: task-macedonian-desktop
 Architecture: all
@@ -1905,6 +1907,7 @@ Description: Romanian environment
  to help Romanian speaking people use Debian.
 XBC-Maintainer: Eddy Petrişor <eddy.petrisor@gmail.com>
 Depends: ${misc:Depends},
+	manpages-ro,
 Recommends:
 	console-terminus,
 	util-linux-locales,
@@ -2072,7 +2075,8 @@ Architecture: all
 Description: Spanish environment
  This task installs programs, data files, and
  documentation that make it easier for Spanish speakers to use Debian.
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+	manpages-es,
 Recommends:
 # Dictionaries
 	ispanish,
