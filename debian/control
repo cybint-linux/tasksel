@@ -85,6 +85,8 @@ Recommends:
 # The full gnome desktop environment should be included if possible
 # even if the larger gnome metapackage doesn't fit.
 	gnome,
+# Package management
+	synaptic,
 # GNOME support in LibreOffice
 	libreoffice-gnome,
 # libreoffice is the best word processor / office suite at the moment
@@ -150,6 +152,7 @@ Recommends:
 	evolution,
 # package management
 	gnome-software,
+	synaptic,
 # some non-core GNOME applications
 	alacarte,
 	gnome-disk-utility,
