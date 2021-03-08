@@ -13,6 +13,10 @@ tasksel (3.65) UNRELEASED; urgency=medium
   * Remove scim-qt-immodule from task-chinese-t-kde-desktop, since it's no
     longer in the archive.
 
+  [ YOSHINO Yoshihito ]
+  * Let gnome-flashback-desktop task in Japanese pull
+    task-japanese-gnome-desktop. Closes: #983688
+
  -- Holger Wansing <hwansing@mailbox.org>  Mon, 22 Feb 2021 10:31:05 +0100
 
 tasksel (3.64) unstable; urgency=medium
