@@ -733,10 +733,8 @@ Depends: ${misc:Depends},
 Recommends:
 # Input method stuff
 	im-config,
-	fcitx,
-	fcitx-sunpinyin,
-	fcitx-googlepinyin,
-	fcitx-table-wubi,
+	fcitx5,
+	fcitx5-chinese-addons,
 # Fonts
 	fonts-noto,
 	fonts-noto-cjk,
@@ -759,8 +757,8 @@ Description: Simplified Chinese KDE Plasma desktop
  This task localises the KDE Plasma desktop in Simplified Chinese.
 Depends: ${misc:Depends},
 Recommends:
-	fcitx-frontend-qt5,
-	kde-config-fcitx
+	fcitx5-frontend-qt5,
+	kde-config-fcitx5
 
 Package: task-chinese-t
 Architecture: all
@@ -778,10 +776,11 @@ Description: Traditional Chinese desktop
  This task localises the desktop in Traditional Chinese.
 Depends: ${misc:Depends},
 Recommends:
-	fcitx,
-	fcitx-chewing,
-	fcitx-table,
+# Input method stuff
 	im-config,
+	fcitx5,
+	fcitx5-chewing,
+	fcitx5-chinese-addons,
 # seems openjdk needs this to display Chinese.
 	fonts-noto,
 	fonts-noto-cjk,
@@ -800,6 +799,9 @@ Architecture: all
 Description: Traditional Chinese KDE Plasma desktop
  This task localises the KDE Plasma desktop in Traditional Chinese.
 Depends: ${misc:Depends},
+Recommends:
+	fcitx5-frontend-qt5,
+	kde-config-fcitx5
 
 Package: task-croatian
 Architecture: all
