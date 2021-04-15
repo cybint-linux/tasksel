@@ -439,6 +439,16 @@ Recommends:
 	fcitx-frontend-gtk3,
 	fcitx-config-gtk
 
+Package: task-amharic-gnome-desktop
+Architecture: all
+Description: Amharic GNOME desktop
+ This task localises the GNOME desktop in Amharic.
+Depends: ${misc:Depends}
+Recommends:
+	ibus-m17n,
+# ibus doesn't have a default config for all languages, so force creation
+	gnome-initial-setup
+
 Package: task-amharic-kde-desktop
 Architecture: all
 Description: Amharic KDE Plasma desktop
@@ -751,6 +761,16 @@ Suggests:
 	fonts-arphic-ukai,
 	fonts-arphic-uming
 
+Package: task-chinese-s-gnome-desktop
+Architecture: all
+Description: Simplified Chinese GNOME desktop
+ This task localises the GNOME desktop in Simplified Chinese.
+Depends: ${misc:Depends}
+Recommends:
+	ibus-libpinyin,
+# ibus doesn't have a default config for all languages, so force creation
+	gnome-initial-setup
+
 Package: task-chinese-s-kde-desktop
 Architecture: all
 Description: Simplified Chinese KDE Plasma desktop
@@ -793,6 +813,16 @@ Recommends:
 Suggests:
 	fonts-arphic-ukai,
 	fonts-arphic-uming
+
+Package: task-chinese-t-gnome-desktop
+Architecture: all
+Description: Traditional Chinese GNOME desktop
+ This task localises the GNOME desktop in Traditional Chinese.
+Depends: ${misc:Depends}
+Recommends:
+	ibus-chewing,
+# ibus doesn't have a default config for all languages, so force creation
+	gnome-initial-setup
 
 Package: task-chinese-t-kde-desktop
 Architecture: all
@@ -1431,7 +1461,8 @@ Recommends:
 # subject instead of iso-2022-jp used Japanese de-facto. I recommend
 # thunderbird as default mailer for Japanese desktop users.
 	thunderbird,
-	thunderbird-l10n-ja
+	thunderbird-l10n-ja,
+	ibus-mozc | ibus-anthy
 
 Package: task-japanese-kde-desktop
 Architecture: all
@@ -1450,6 +1481,16 @@ Recommends:
 	fcitx,
 	fcitx-m17n,
 	fcitx-config-gtk
+
+Package: task-kannada-gnome-desktop
+Architecture: all
+Description: Kannada GNOME desktop
+ This task localises the GNOME desktop in Kannada.
+Depends: ${misc:Depends}
+Recommends:
+	ibus-m17n,
+# ibus doesn't have a default config for all languages, so force creation
+	gnome-initial-setup
 
 Package: task-kannada-kde-desktop
 Architecture: all
@@ -1690,7 +1731,10 @@ Depends: ${misc:Depends},
 Recommends:
 	fcitx-frontend-gtk3,
 	fcitx-frontend-gtk2,
-	fcitx-config-gtk
+	fcitx-config-gtk,
+	ibus-m17n,
+# ibus doesn't have a default config for all languages, so force creation
+	gnome-initial-setup
 
 Package: task-malayalam-kde-desktop
 Architecture: all
@@ -2213,7 +2257,10 @@ Depends: ${misc:Depends},
 Recommends:
 	fcitx-frontend-gtk2,
 	fcitx-frontend-gtk3,
-	fcitx-config-gtk
+	fcitx-config-gtk,
+	ibus-m17n,
+# ibus doesn't have a default config for all languages, so force creation
+	gnome-initial-setup
 
 Package: task-telugu-kde-desktop
 Architecture: all

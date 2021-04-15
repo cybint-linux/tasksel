@@ -4,6 +4,17 @@ tasksel (3.66) UNRELEASED; urgency=medium
   * Switch to fcitx5 for Simplified and Traditional Chinese desktop.
     Fcitx5 works for Wayland. (Closes: #983704)
 
+  [ Holger Wansing]
+  * GNOME now depends on ibus as input method. For some languages, there are
+    additional packages needed, to make ibus work. Adding them for Amharic,
+    Simplified chinese, Traditional chinese, Japanese, Kannada, Malayalam and
+    Telugu. This requires new task-*-gnome-desktop packages to be added for
+    Amharic, Simplified chinese, Traditional chinese, and Kannada.
+    Thanks to Shengjing Zhu for working out the circumstances.
+    Closes: #941624, #983653.
+  * ibus does not have default configurations for all languages, so force
+    to create one via gnome-initial-setup for all the languages using ibus.
+
  -- Holger Wansing <hwansing@mailbox.org>  Sat, 20 Mar 2021 16:22:17 +0800
 
 tasksel (3.65) unstable; urgency=medium
