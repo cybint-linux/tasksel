@@ -1,4 +1,6 @@
-tasksel (3.66) UNRELEASED; urgency=medium
+tasksel (3.66) unstable; urgency=medium
+
+  * Team upload.
 
   [ Shengjing Zhu ]
   * Switch to fcitx5 for Simplified and Traditional Chinese desktop.
