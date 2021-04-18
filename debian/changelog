@@ -1,4 +1,6 @@
-tasksel (3.67) UNRELEASED; urgency=medium
+tasksel (3.67) unstable; urgency=medium
+
+  * Team upload.
 
   * Add forgotten files in ./tasks/ to make recently added *-gnome-desktop
     packages work.
