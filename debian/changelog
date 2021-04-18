@@ -1,3 +1,10 @@
+tasksel (3.67) UNRELEASED; urgency=medium
+
+  * Add forgotten files in ./tasks/ to make recently added *-gnome-desktop
+    packages work.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 18 Apr 2021 12:10:40 +0200
+
 tasksel (3.66) unstable; urgency=medium
 
   * Team upload.
