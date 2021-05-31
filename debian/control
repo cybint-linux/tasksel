@@ -63,8 +63,6 @@ Recommends:
 	iw,
 # sound
 	alsa-utils,
-# support for U2F devices
-	libu2f-udev,
 # For use by users, to elevate privileges
 	sudo,
 # firefox is the most popular web browser at the moment,
