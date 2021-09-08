@@ -1,3 +1,10 @@
+tasksel (3.69) UNRELEASED; urgency=medium
+
+  * Install CUPS for all *-desktop tasks, now that task-print-service is no
+    longer existing. Closes: #993668
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 08 Sep 2021 22:20:05 +0200
+
 tasksel (3.68) unstable; urgency=medium
 
   * Team upload.

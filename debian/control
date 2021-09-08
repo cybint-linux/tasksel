@@ -68,6 +68,8 @@ Recommends:
 # firefox is the most popular web browser at the moment,
 # although both gnome and kde offer their own too
 	firefox | firefox-esr,
+# print system
+	cups,
 
 Package: task-gnome-desktop
 Architecture: all
