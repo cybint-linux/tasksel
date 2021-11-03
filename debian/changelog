@@ -1,7 +1,12 @@
 tasksel (3.69) UNRELEASED; urgency=medium
 
+  [ Holger Wansing ]
   * Install CUPS for all *-desktop tasks, now that task-print-service is no
     longer existing. Closes: #993668
+
+  [ Ievgenii Meshcheriakov ]
+  * Don't recommend iukrainian for task-ukrainian, the package is no longer
+    built.
 
  -- Holger Wansing <hwansing@mailbox.org>  Wed, 08 Sep 2021 22:20:05 +0200
 
