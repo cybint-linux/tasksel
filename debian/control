@@ -1464,6 +1464,19 @@ Recommends:
 	thunderbird-l10n-ja,
 	ibus-mozc | ibus-anthy
 
+Package: task-japanese-gnome-flashback-desktop
+Architecture: all
+Description: Japanese GNOME Flashback desktop
+ This task localises the GNOME Flashback desktop in Japanese.
+Depends: ${misc:Depends},
+Recommends:
+# evolution has a problem for Japanese, for example it uses always UTF-8
+# subject instead of iso-2022-jp used Japanese de-facto. I recommend
+# thunderbird as default mailer for Japanese desktop users.
+	thunderbird,
+	thunderbird-l10n-ja,
+	ibus-mozc | ibus-anthy
+
 Package: task-japanese-kde-desktop
 Architecture: all
 Description: Japanese KDE Plasma desktop

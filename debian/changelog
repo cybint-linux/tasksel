@@ -2,6 +2,8 @@ tasksel (3.69) UNRELEASED; urgency=medium
 
   * Install CUPS for all *-desktop tasks, now that task-print-service is no
     longer existing. Closes: #993668
+  * Fix broken relationship of japanese-gnome-desktop task to Gnome
+    Flashback desktop. Closes: #998120
 
  -- Holger Wansing <hwansing@mailbox.org>  Wed, 08 Sep 2021 22:20:05 +0200
 
