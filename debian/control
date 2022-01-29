@@ -2360,8 +2360,7 @@ XBC-Maintainer: Eugeniy Meshcheryakov <eugen@debian.org>
 Depends: ${misc:Depends},
 Recommends:
 	aspell-uk,
-	konwert,
-	iukrainian
+	konwert
 
 Package: task-ukrainian-desktop
 Architecture: all
