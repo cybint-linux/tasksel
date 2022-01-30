@@ -1,4 +1,6 @@
-tasksel (3.69) UNRELEASED; urgency=medium
+tasksel (3.69) unstable; urgency=medium
+
+  * Team upload.
 
   [ Holger Wansing ]
   * Install CUPS for all *-desktop tasks, now that task-print-service is no
@@ -10,7 +12,7 @@ tasksel (3.69) UNRELEASED; urgency=medium
   * Don't recommend iukrainian for task-ukrainian, the package is no longer
     built.
 
- -- Holger Wansing <hwansing@mailbox.org>  Wed, 08 Sep 2021 22:20:05 +0200
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 30 Jan 2022 14:24:49 +0100
 
 tasksel (3.68) unstable; urgency=medium
 
