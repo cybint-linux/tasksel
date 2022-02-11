@@ -1,3 +1,11 @@
+tasksel (3.69+rebuild) unstable; urgency=medium
+
+  * Team upload.
+
+  * Re-upload to allow migration to testing. No source changes.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 11 Feb 2022 19:25:38 +0100
+
 tasksel (3.69) unstable; urgency=medium
 
   * Team upload.
