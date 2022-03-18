@@ -1,5 +1,6 @@
-tasksel (3.69+rebuild1) UNRELEASED; urgency=medium
+tasksel (3.70) UNRELEASED; urgency=medium
 
+  [ Debian Janitor ]
   * Remove constraints unnecessary since buster:
     + Build-Depends: Drop versioned constraint on dpkg-dev.
     + tasksel: Drop versioned constraint on perl-base in Depends.
@@ -7,7 +8,10 @@ tasksel (3.69+rebuild1) UNRELEASED; urgency=medium
     + tasksel: Drop versioned constraint on debconf in Conflicts.
     + tasksel-data: Drop versioned constraint on tasksel in Conflicts.
 
- -- Debian Janitor <janitor@jelmer.uk>  Wed, 23 Feb 2022 05:38:51 -0000
+  [ Andika Triwidada ]
+  * Updated debconf translation for Indonesian. Closes: #981478
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 18 Mar 2022 21:16:48 +0100
 
 tasksel (3.69+rebuild) unstable; urgency=medium
 
