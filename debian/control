@@ -154,7 +154,6 @@ Recommends:
 # some non-core GNOME applications
 	alacarte,
 	gnome-disk-utility,
-	gnome-documents,
 	gnome-tweaks,
 	yelp,
 
