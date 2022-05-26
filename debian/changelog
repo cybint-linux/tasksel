@@ -11,6 +11,9 @@ tasksel (3.70) UNRELEASED; urgency=medium
   [ Andika Triwidada ]
   * Updated debconf translation for Indonesian. Closes: #981478
 
+  [ Holger Wansing ]
+  * Convert file encoding for some po files into UTF-8; fixes lintian tag.
+
  -- Holger Wansing <hwansing@mailbox.org>  Fri, 18 Mar 2022 21:16:48 +0100
 
 tasksel (3.69+rebuild) unstable; urgency=medium
